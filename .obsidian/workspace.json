@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6ca24908dff0dfe",
+            "id": "9b1f97d158d9b013",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "next.js/1. Course Roadmap and Projects.md",
+                "file": "next.js/Section.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Course Roadmap and Projects"
+              "title": "Section"
+            }
+          },
+          {
+            "id": "c5fb1e35196dd38f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "next.js/3-12. Setting Up Our Development Environment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-12. Setting Up Our Development Environment"
+            }
+          },
+          {
+            "id": "90802947924ce62a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "next.js/3-13. Pure React.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-13. Pure React"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,9 +196,18 @@
   },
   "active": "3354b99e95f1cbb8",
   "lastOpenFiles": [
+    "next.js/3-12. Setting Up Our Development Environment.md",
+    "next.js/3-13. Pure React.md",
+    "Chưa đặt tên",
+    "next.js/Section.md",
+    "next.js/2-6. Introduction to Part 1.md",
+    "next.js/1-5. Downloading Course Material.md",
+    "next.js/1-4. Read Before You Start!.md",
+    "next.js/1-3. Watch Before You Start!.md",
+    "next.js/2-7. Useful Resources for Part 1.md",
+    "next.js/1-2. Building Our First React App!.md",
+    "next.js/1-1. Course Roadmap and Projects.md",
     "Chưa đặt tên 1.md",
-    "next.js/1. Course Roadmap and Projects.md",
-    "Chưa đặt tên.md",
     "next.js",
     "test driver developer",
     "K.md",
