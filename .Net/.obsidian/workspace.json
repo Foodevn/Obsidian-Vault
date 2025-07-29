@@ -4,133 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "85f1e0b11be1fabe",
+        "id": "2cc499ed122139a7",
         "type": "tabs",
         "children": [
           {
-            "id": "bea8fe1cccf3ecb8",
+            "id": "e76231ca228f2f19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-4. Dot Net Core Roadmap.md",
+                "file": "1-18. Routing Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-4. Dot Net Core Roadmap"
+              "title": "1-18. Routing Overview"
             }
           },
           {
-            "id": "b830a075280cd412",
+            "id": "9e6e8e9d35b8f5fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-14. Launch Settings.md",
+                "file": "1-19. Routing in Action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-14. Launch Settings"
+              "title": "1-19. Routing in Action"
             }
           },
           {
-            "id": "6113c9c3370caffa",
+            "id": "11ac251c9424eafb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-8. Prerequisites.md",
+                "file": "1-20. Default Views.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-8. Prerequisites"
-            }
-          },
-          {
-            "id": "bdb7fda948dcec3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-9. Tools Needed.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-9. Tools Needed"
-            }
-          },
-          {
-            "id": "0ee1ca5f1b4f0a32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-11. Course Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-11. Course Overview"
-            }
-          },
-          {
-            "id": "6427cbd60cf93ea7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-11. Course Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-11. Course Overview"
-            }
-          },
-          {
-            "id": "46c6691a25fad116",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Xem biểu đồ"
-            }
-          },
-          {
-            "id": "1ae4eca329d5b98b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-13. Project File.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-13. Project File"
-            }
-          },
-          {
-            "id": "f6dd37c3ca337f77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cài đặt dotnet trên linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cài đặt dotnet trên linux"
+              "title": "1-20. Default Views"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -274,10 +194,18 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "b830a075280cd412",
+  "active": "11ac251c9424eafb",
   "lastOpenFiles": [
-    "1-13. Project File.md",
+    "1-19. Routing in Action.md",
+    "1-20. Default Views.md",
+    "1-18. Routing Overview.md",
+    "1-17. MVC Architecture.md",
+    "Routing.md",
     "cài đặt dotnet trên linux.md",
+    "1-16. Program File.md",
+    "1-15. wwwroot and appsettings.md",
+    "1-14. Launch Settings.md",
+    "1-13. Project File.md",
     "1-6. Project Resources.md",
     "1-4. Dot Net Core Roadmap.md",
     "1-8. Prerequisites.md",
@@ -285,7 +213,6 @@
     "1-11. Course Overview.md",
     "1-9. Tools Needed.md",
     "C.md",
-    "1-14. Launch Settings.md",
     "Vite.md",
     "next.js/3-15. Setting Up a New React Project The Options.md",
     "next.js/3-13. Pure React.md",
@@ -296,14 +223,8 @@
     "next.js/1-5. Downloading Course Material.md",
     "next.js/1-4. Read Before You Start!.md",
     "next.js/1-3. Watch Before You Start!.md",
-    "next.js/2-7. Useful Resources for Part 1.md",
-    "next.js/1-2. Building Our First React App!.md",
-    "next.js/1-1. Course Roadmap and Projects.md",
     "next.js",
     "test driver developer",
-    "K.md",
-    "Chưa đặt tên 1",
-    "Block.md",
-    "block chain.md"
+    "Chưa đặt tên 1"
   ]
 }
