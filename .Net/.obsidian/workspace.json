@@ -4,77 +4,165 @@
     "type": "split",
     "children": [
       {
-        "id": "4c87b86e372f8965",
+        "id": "25a777bbf36865d7",
         "type": "tabs",
         "children": [
           {
-            "id": "b9a1ceade76a5e3a",
+            "id": "c5bcb3ff9b97b29d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-26. Nuget Packages for Entity Framework Core.md",
+                "file": "2-43. Asp Validation Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-26. Nuget Packages for Entity Framework Core"
+              "title": "2-43. Asp Validation Summary"
             }
           },
           {
-            "id": "652cebdec741cab3",
+            "id": "2d797c7458ed8579",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-27. Setup ApplicationDbContext.md",
+                "file": "2-44. Client Side Validation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-27. Setup ApplicationDbContext"
+              "title": "2-44. Client Side Validation"
             }
           },
           {
-            "id": "67e37123abb31658",
+            "id": "58949370f55a6e5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-27. Setup ApplicationDbContext.md",
+                "file": "2-45. Edit and Delete Buttons.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-27. Setup ApplicationDbContext"
+              "title": "2-45. Edit and Delete Buttons"
             }
           },
           {
-            "id": "cd913c48a0d92157",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Xem biểu đồ"
-            }
-          },
-          {
-            "id": "d071a288f1f166d9",
+            "id": "a07c770588d2c342",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-24. Data Annotations.md",
+                "file": "2-46. Get Category Details to Edit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-24. Data Annotations"
+              "title": "2-46. Get Category Details to Edit"
+            }
+          },
+          {
+            "id": "be29ed90bac9a80c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-47. Update Category.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-47. Update Category"
+            }
+          },
+          {
+            "id": "2f8937648c5e9405",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-48. Update Category in Action.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-48. Update Category in Action"
+            }
+          },
+          {
+            "id": "f174a9057cdb7ec8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-50. Delete Category in Action.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-50. Delete Category in Action"
+            }
+          },
+          {
+            "id": "c25cc0a105ea949f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-51. TempData.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-51. TempData"
+            }
+          },
+          {
+            "id": "690cd8e7301e70f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-52. Partial Views.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-52. Partial Views"
+            }
+          },
+          {
+            "id": "1431eeeb911d0b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-38. Create Category UI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-38. Create Category UI"
+            }
+          },
+          {
+            "id": "857a5e0c46501273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-50. Delete Category in Action.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-50. Delete Category in Action"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -218,40 +306,40 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "67e37123abb31658",
+  "active": "1431eeeb911d0b8e",
   "lastOpenFiles": [
-    "2-28. Create Database.md",
+    "1-4. Dot Net Core Roadmap.md",
+    "2-53. Toastr Notification.md",
+    "2-52. Partial Views.md",
+    "2-51. TempData.md",
+    "2-50. Delete Category in Action.md",
+    "2-49. Get and Post Action for Delete Category.md",
+    "2-48. Update Category in Action.md",
+    "2-47. Update Category.md",
+    "2-46. Get Category Details to Edit.md",
+    "2-45. Edit and Delete Buttons.md",
+    "2-44. Client Side Validation.md",
+    "2-43. Asp Validation Summary.md",
+    "2-41. Server Side Validations.md",
+    "2-42. Custom Validations.md",
     "2-27. Setup ApplicationDbContext.md",
     "2-26. Nuget Packages for Entity Framework Core.md",
     "2-25. Connection String.md",
-    "1-4. Dot Net Core Roadmap.md",
-    "{9994F754-7EED-4B53-BE55-71507FD4B4B8} 1.png",
-    "{03D4C3B2-43E8-4F0E-9AF9-D4548D5B0EB0}.png",
-    "{F2DF8DE2-68B8-40CE-8E3E-BFB81FBFD8E9}.png",
-    "{92DDBE9D-0BCC-49F2-8843-2DF4D45AF776}.png",
-    "{9994F754-7EED-4B53-BE55-71507FD4B4B8}.png",
-    "cài đặt dotnet trên linux.md",
     "2-24. Data Annotations.md",
     "2-23. Create Category Model.md",
-    "1-21. What is Dependency Injection.md",
-    "1-22. Go Easy on Yourself!.md",
-    "1-18. Routing Overview.md",
-    "1-19. Routing in Action.md",
-    "1-20. Default Views.md",
-    "Partial View trong MVC.md",
-    "1-17. MVC Architecture.md",
-    "Routing.md",
-    "1-16. Program File.md",
-    "1-15. wwwroot and appsettings.md",
-    "1-14. Launch Settings.md",
-    "1-13. Project File.md",
+    "2-36. Bootswatch Theme and Bootstrap Icons.md",
+    "2-40. Create Category.md",
+    "2-39. Input Tag Helpers.md",
+    "ASP.NET Core Fundamentals.md",
     "1-6. Project Resources.md",
-    "1-8. Prerequisites.md",
-    "1-12. Create Project.md",
-    "1-11. Course Overview.md",
     "1-9. Tools Needed.md",
-    "C.md",
-    "Chưa đặt tên",
+    "2-38. Create Category UI.md",
+    "{F2DF8DE2-68B8-40CE-8E3E-BFB81FBFD8E9}.png",
+    "dự án",
+    "{92DDBE9D-0BCC-49F2-8843-2DF4D45AF776}.png",
+    "{9994F754-7EED-4B53-BE55-71507FD4B4B8}.png",
+    "{9994F754-7EED-4B53-BE55-71507FD4B4B8} 1.png",
+    "{03D4C3B2-43E8-4F0E-9AF9-D4548D5B0EB0}.png",
     "next.js",
     "test driver developer",
     "Chưa đặt tên 1"
