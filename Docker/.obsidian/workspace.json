@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-1. Introduction.md",
+                "file": "1-01. Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-1. Introduction"
+              "title": "1-01. Introduction"
+            }
+          },
+          {
+            "id": "f6d12d2b2c2a1012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-02. Docker Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-02. Docker Overview"
+            }
+          },
+          {
+            "id": "a548c77f1459386f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-03. Getting started with Docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-03. Getting started with Docker"
+            }
+          },
+          {
+            "id": "c751745df976b3d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-04. A note on installing Docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-04. A note on installing Docker"
+            }
+          },
+          {
+            "id": "1b98276e8b9f3d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-04. A note on installing Docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-04. A note on installing Docker"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -160,6 +217,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Mở bộ chuyển đổi nhanh": false,
       "graph:Mở xem biểu đồ": false,
       "canvas:Tạo bảng mới": false,
@@ -168,8 +226,15 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "761b5ef4bfb6fb4a",
+  "active": "1b98276e8b9f3d56",
   "lastOpenFiles": [
-    "1-1. Introduction.md"
+    "1-05. Demo - Setup and Install Docker.md",
+    "1-04. A note on installing Docker.md",
+    "1-03. Getting started with Docker.md",
+    "1-02. Docker Overview.md",
+    "1-01. Introduction.md",
+    "Section 1. Introduction",
+    "sec",
+    "New folder"
   ]
 }
