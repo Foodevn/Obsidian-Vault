@@ -4,81 +4,109 @@
     "type": "split",
     "children": [
       {
-        "id": "f2a2b892c5e5f993",
+        "id": "95c9248a85d1bf2f",
         "type": "tabs",
         "children": [
           {
-            "id": "761b5ef4bfb6fb4a",
+            "id": "2796f03d46ade619",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-01. Introduction.md",
+                "file": "2-10. Basic Docker Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-01. Introduction"
+              "title": "2-10. Basic Docker Commands"
             }
           },
           {
-            "id": "f6d12d2b2c2a1012",
+            "id": "4942e543376cd947",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-02. Docker Overview.md",
+                "file": "Section 2. Command Docker/2-11. Demo - Docker Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-02. Docker Overview"
+              "title": "2-11. Demo - Docker Commands"
             }
           },
           {
-            "id": "a548c77f1459386f",
+            "id": "d631d1d13035446e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-03. Getting started with Docker.md",
+                "file": "Section 2. Command Docker/2-13. Demo - Docker Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-03. Getting started with Docker"
+              "title": "2-13. Demo - Docker Labs"
             }
           },
           {
-            "id": "c751745df976b3d1",
+            "id": "8f77ef29357c1fa4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-04. A note on installing Docker.md",
+                "file": "Section 2. Command Docker/2-14. Demo - Accessing labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-04. A note on installing Docker"
+              "title": "2-14. Demo - Accessing labs"
             }
           },
           {
-            "id": "1b98276e8b9f3d56",
+            "id": "c3c9f9b5e4b375a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-04. A note on installing Docker.md",
+                "file": "Section 2. Command Docker/2-15. Course setup - accessing the labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-04. A note on installing Docker"
+              "title": "2-15. Course setup - accessing the labs"
+            }
+          },
+          {
+            "id": "f6fa8a61518b85e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Command Docker/2-16. Labs - Basic Docker Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-16. Labs - Basic Docker Commands"
+            }
+          },
+          {
+            "id": "e6b71598e85ea004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-17. Docker Run.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-17. Docker Run"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -226,15 +254,34 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "1b98276e8b9f3d56",
+  "active": "e6b71598e85ea004",
   "lastOpenFiles": [
+    "Section 2. Command Docker/2-10. Basic Docker Commands.md",
+    "Section 3. Docker Run",
+    "3-17. Docker Run.md",
+    "Section 2. Command Docker/2-16. Labs - Basic Docker Commands.md",
+    "Section 2. Command Docker/2-15. Course setup - accessing the labs.md",
+    "Section 2. Command Docker/2-14. Demo - Accessing labs.md",
+    "Section 2. Command Docker/2-13. Demo - Docker Labs.md",
+    "Docker+for+Beginners-Mumshad+Mannambeth.pdf",
+    "Section 2. Command Docker/2-11. Demo - Docker Commands.md",
+    "Section 2. Command Docker",
+    "New folder",
+    "1-01. Introduction.md",
+    "1-08. Student Preferences.md",
+    "Section 1. Introduction/1-02. Docker Overview.md",
+    "Section 1. Introduction/1-01. Introduction.md",
+    "Section 1. Introduction/1-08. Student Preferences.md",
+    "Section 1. Introduction/1-06. A Quick Reminder.md",
+    "Section 1. Introduction/1-05. Demo - Setup and Install Docker.md",
+    "Section 1. Introduction/1-04. A note on installing Docker.md",
+    "Section 1. Introduction/1-03. Getting started with Docker.md",
+    "1-06. A Quick Reminder.md",
     "1-05. Demo - Setup and Install Docker.md",
     "1-04. A note on installing Docker.md",
     "1-03. Getting started with Docker.md",
     "1-02. Docker Overview.md",
-    "1-01. Introduction.md",
     "Section 1. Introduction",
-    "sec",
-    "New folder"
+    "sec"
   ]
 }
