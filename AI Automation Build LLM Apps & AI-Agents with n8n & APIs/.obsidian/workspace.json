@@ -20,8 +20,63 @@
               "icon": "lucide-file",
               "title": "1-2. Course Overview"
             }
+          },
+          {
+            "id": "10423391e62ce73e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Section 1 Introduction/1-5. Important+Links.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1-5. Important+Links"
+            }
+          },
+          {
+            "id": "85fee1130035e70a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 1 Introduction/1-6. Instructor Introduction.. Arnold Oberleiter (Arnie).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-6. Instructor Introduction.. Arnold Oberleiter (Arnie)"
+            }
+          },
+          {
+            "id": "cf37d017b09681c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-07. What to Expect in This Section.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-07. What to Expect in This Section"
+            }
+          },
+          {
+            "id": "87c529360bab3a38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-08. What Are Automations, AI Automation, and AI Agent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-08. What Are Automations, AI Automation, and AI Agent"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -78,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "right": {
     "id": "b1ad11def0b735bd",
@@ -166,8 +221,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "30c75a3898674dc5",
+  "active": "87c529360bab3a38",
   "lastOpenFiles": [
+    "1-07. What to Expect in This Section.md",
+    "1-08. What Are Automations, AI Automation, and AI Agent.md",
+    "Section 2 Basics - Automation, LLMs, Function Calling, Vector Databases & RAG Explained",
+    "Section 1 Introduction/1-6. Instructor Introduction.. Arnold Oberleiter (Arnie).md",
+    "Section 1 Introduction/1-5. Important+Links.pdf",
+    "1-4. Explanation of the Links that you need in the Course.md",
+    "Section 1 Introduction/1-2. Course Overview.md",
+    "Section 1 Introduction/1-4. Explanation of the Links that you need in the Course.md",
+    "Section 1 Introduction/1-3. Important Tips for the Course.md",
+    "1-5. Important+Links.pdf",
+    "Important+Links.pdf",
+    "1-3. Important Tips for the Course.md",
     "1-2. Course Overview.md",
     "Section 1 Introduction"
   ]
