@@ -1,0 +1,121 @@
+{
+    "name": "CRM Marketing - Cham soc tu dong",
+    "nodes": [
+        {
+            "parameters": {
+                "triggerTimes": {
+                    "item": [
+                        {
+                            "hour": 9,
+                            "minute": 0
+                        }
+                    ]
+                },
+                "timezone": "Asia/Ho_Chi_Minh"
+            },
+            "type": "n8n-nodes-base.cron",
+            "typeVersion": 1,
+            "position": [
+                -880,
+                20
+            ],
+            "id": "1e5f0c21-3a9b-4f35-9e9d-bd9c5227f8d7",
+            "name": "Cron 09:00"
+        },
+        {
+            "parameters": {
+                "operation": "executeQuery",
+                "query": "SELECT user_id, name FROM customers WHERE last_purchase_date <= NOW() - INTERVAL '30 days';"
+            },
+            "type": "n8n-nodes-base.postgres",
+            "typeVersion": 1,
+            "position": [
+                -640,
+                20
+            ],
+            "id": "0c39adf2-ffaf-4af7-b0a5-f6cba4d5ed24",
+            "name": "Query Inactive Customers",
+            "credentials": {
+                "postgres": {
+                    "id": "REPLACE_POSTGRES_CRED_ID",
+                    "name": "PostgreSQL"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "functionCode": "// Tạo nội dung khuyến mãi cá nhân hóa\nreturn items.map(item => {\n  const name = item.json.name || 'bạn';\n  return { json: {\n    user_id: item.json.user_id,\n    message: `Chào ${name}! Shop tặng bạn mã GIAM20 giảm 20% cho đơn hôm nay. Quan tâm sản phẩm nào nhắn mình nhé!`\n  }};\n});"
+            },
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                -400,
+                20
+            ],
+            "id": "b75fdc78-0a63-40f5-91a5-f5ad06d11c9c",
+            "name": "Build Messages"
+        },
+        {
+            "parameters": {
+                "url": "https://openapi.zalo.me/v3.0/oa/message/cs",
+                "method": "POST",
+                "sendBody": true,
+                "jsonBody": true,
+                "batching": {
+                    "batch": true,
+                    "batchSize": 1
+                },
+                "bodyParametersJson": "={ { \n  \"recipient\": { \"user_id\": $json.user_id },\n  \"message\": { \"text\": $json.message }\n} }"
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 1,
+            "position": [
+                -160,
+                20
+            ],
+            "id": "e9a5f3b6-7431-4c46-89a0-6db42d5b6c1a",
+            "name": "Send Promo"
+        }
+    ],
+    "connections": {
+        "Cron 09:00": {
+            "main": [
+                [
+                    {
+                        "node": "Query Inactive Customers",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Query Inactive Customers": {
+            "main": [
+                [
+                    {
+                        "node": "Build Messages",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Build Messages": {
+            "main": [
+                [
+                    {
+                        "node": "Send Promo",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "versionId": "6a7d1c7d-4921-4a63-9e81-902f0f6b1b76",
+    "id": "wf_crm_marketing",
+    "tags": []
+}

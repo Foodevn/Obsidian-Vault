@@ -1,0 +1,219 @@
+{
+    "name": "Order Creation - Tu dong tao don",
+    "nodes": [
+        {
+            "parameters": {
+                "httpMethod": "POST",
+                "path": "order-create",
+                "responseMode": "onReceived"
+            },
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 1,
+            "position": [
+                -980,
+                80
+            ],
+            "id": "b5f86a4b-0d5e-47f2-bb76-9f6e4d1e3a11",
+            "name": "Webhook Order"
+        },
+        {
+            "parameters": {
+                "functionCode": "// Validate payload\nconst { userId, product, size, quantity } = $json;\nif(!product) { return [{ json: { error: 'Missing product' }}]; }\nreturn [{ json: { userId, product, size, quantity: quantity || 1 }}];"
+            },
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                -760,
+                80
+            ],
+            "id": "4a2ee9a8-00d8-4e71-9e1f-09c3b357d8f9",
+            "name": "Validate"
+        },
+        {
+            "parameters": {
+                "functionCode": "// Giả lập tồn kho - sau thay bằng DB\nconst stock = { 'Áo sơ mi trắng': { 'S': 5, 'M': 2, 'L': 0 } };\nconst { product, size, quantity } = $json;\nlet available = false;\nif (stock[product] && stock[product][size] >= quantity) available = true;\nreturn [{ json: { ...$json, available }}];"
+            },
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                -540,
+                80
+            ],
+            "id": "d9dd2762-8f8d-4d4e-9ed1-8a0d5141bcd2",
+            "name": "Check Stock"
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "boolean": [],
+                    "string": [],
+                    "number": [],
+                    "collection": [
+                        {
+                            "value1": "={{$json.available}}",
+                            "operation": "equal",
+                            "value2": true
+                        }
+                    ]
+                }
+            },
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                -320,
+                80
+            ],
+            "id": "a821f2fa-037a-49e3-9c45-90dbfa1c7cc3",
+            "name": "In Stock?"
+        },
+        {
+            "parameters": {
+                "url": "https://partner.shopeemobile.com/api/v2/order/create",
+                "method": "POST",
+                "jsonParameters": true,
+                "bodyParametersJson": "={ { \n  \"product_name\": $json.product,\n  \"size\": $json.size,\n  \"quantity\": $json.quantity,\n  \"customer_id\": $json.userId \n} }"
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 1,
+            "position": [
+                -80,
+                0
+            ],
+            "id": "9e1c3d2a-f9b3-48b7-bee8-1d28dfc6a341",
+            "name": "Create Shopee Order"
+        },
+        {
+            "parameters": {
+                "operation": "executeQuery",
+                "query": "INSERT INTO orders (customer_id, product, size, quantity, status) VALUES ({{$json.userId}}, '{{$json.product}}', '{{$json.size}}', {{$json.quantity}}, 'pending');"
+            },
+            "type": "n8n-nodes-base.postgres",
+            "typeVersion": 1,
+            "position": [
+                140,
+                0
+            ],
+            "id": "f7d1b72c-3b5b-4f2e-87c2-2a1adf33d6c4",
+            "name": "Save Order",
+            "credentials": {
+                "postgres": {
+                    "id": "REPLACE_POSTGRES_CRED_ID",
+                    "name": "PostgreSQL"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "url": "https://openapi.zalo.me/v3.0/oa/message/cs",
+                "method": "POST",
+                "jsonParameters": true,
+                "bodyParametersJson": "={ { \n  \"recipient\": { \"user_id\": $json.userId },\n  \"message\": { \"text\": 'Đơn hàng của bạn đã được ghi nhận! Shop sẽ xác nhận sớm.' }\n} }"
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 1,
+            "position": [
+                360,
+                0
+            ],
+            "id": "b87a9f5e-57d7-4a62-90f7-5dd64a6d05c5",
+            "name": "Notify Success"
+        },
+        {
+            "parameters": {
+                "url": "https://openapi.zalo.me/v3.0/oa/message/cs",
+                "method": "POST",
+                "jsonParameters": true,
+                "bodyParametersJson": "={ { \n  \"recipient\": { \"user_id\": $json.userId },\n  \"message\": { \"text\": 'Xin lỗi, sản phẩm hoặc size bạn chọn hiện đã hết hàng.' }\n} }"
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 1,
+            "position": [
+                -80,
+                200
+            ],
+            "id": "c61c094c-2e42-4d42-9adf-2b0418e8e9b0",
+            "name": "Notify OutOfStock"
+        }
+    ],
+    "connections": {
+        "Webhook Order": {
+            "main": [
+                [
+                    {
+                        "node": "Validate",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Validate": {
+            "main": [
+                [
+                    {
+                        "node": "Check Stock",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Check Stock": {
+            "main": [
+                [
+                    {
+                        "node": "In Stock?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "In Stock?": {
+            "main": [
+                [
+                    {
+                        "node": "Create Shopee Order",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Notify OutOfStock",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Create Shopee Order": {
+            "main": [
+                [
+                    {
+                        "node": "Save Order",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Save Order": {
+            "main": [
+                [
+                    {
+                        "node": "Notify Success",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "versionId": "cde8f64a-53b4-469c-9f96-48e4a4a5d7a9",
+    "id": "wf_order_create",
+    "tags": []
+}

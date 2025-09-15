@@ -40,15 +40,15 @@ docker pull n8nio/n8n:1.109.2-exp.0
 3. **Phân tích chuỗi kết nối** để tạo biến môi trường:
     
 
-|Biến môi trường|Giá trị|
-|---|---|
-|`DB_POSTGRESDB_DATABASE`|`n8n-db`|
-|`DB_POSTGRESDB_HOST`|`ep-ed-fog-a10tztqc-pooler.ap-southeast-1.aws.neon.tech`|
-|`DB_POSTGRESDB_PASSWORD`|`pg_lPGtuwNzQZ70`|
-|`DB_POSTGRESDB_PORT`|`5432`|
-|`DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED`|`false`|
-|`DB_POSTGRESDB_USER`|`neondb_owner`|
-|`DB_TYPE`|`postgresdb`|
+| Biến môi trường                         | Giá trị                                                  |
+| --------------------------------------- | -------------------------------------------------------- |
+| `DB_POSTGRESDB_DATABASE`                | `n8n-db`                                                 |
+| `DB_POSTGRESDB_HOST`                    | `ep-ed-fog-a10tztqc-pooler.ap-southeast-1.aws.neon.tech` |
+| `DB_POSTGRESDB_PASSWORD`                | `pg_lPGtuwNzQZ70`                                        |
+| `DB_POSTGRESDB_PORT`                    | `5432`                                                   |
+| `DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED` | `false`                                                  |
+| `DB_POSTGRESDB_USER`                    | `neondb_owner`                                           |
+| `DB_TYPE`                               | `postgresdb`                                             |
 
 ---
 

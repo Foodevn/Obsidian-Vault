@@ -1,0 +1,195 @@
+{
+    "name": "Chatbot AI - Phan tich & Phan loai",
+    "nodes": [
+        {
+            "parameters": {
+                "httpMethod": "POST",
+                "path": "chat-incoming",
+                "responseMode": "onReceived"
+            },
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 1,
+            "position": [
+                -1060,
+                -40
+            ],
+            "id": "6c3b6d6d-3b8b-4c3a-9d8a-958f9a1b5d11",
+            "name": "Webhook Chat"
+        },
+        {
+            "parameters": {
+                "functionCode": "// Chuẩn hóa dữ liệu vào\nconst userId = $json.user_id || $json.sender_id || 'unknown';\nconst message = ($json.message || $json.text || '').trim();\nreturn [{ json: { userId, text: message }}];"
+            },
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                -840,
+                -40
+            ],
+            "id": "2d9d609d-3cf0-43c4-9a4d-5c1d9d4d7c21",
+            "name": "Normalize"
+        },
+        {
+            "parameters": {
+                "resource": "chat",
+                "mode": "chatCompletion",
+                "model": "gpt-4o-mini",
+                "systemMessage": "Bạn là nhân viên bán hàng thân thiện của shop quần áo thời trang.\n- Nếu khách hỏi sản phẩm → gợi ý kèm giá (nếu biết) và gợi ý size.\n- Nếu khách muốn đặt hàng → trả về JSON thuần không giải thích: {\"intent\":\"order\",\"product\":\"Tên\",\"size\":\"Size\",\"quantity\":Số}.\n- Nếu khách chỉ hỏi thông tin → JSON: {\"intent\":\"info\",\"message\":\"Trả lời ngắn gọn\"}.\nChỉ trả về đúng JSON hợp lệ nếu có thể đặt hàng.\nNếu không chắc sản phẩm tồn tại → intent=info.",
+                "inputType": "json",
+                "jsonInput": "={ {\n  \"role\": \"user\",\n  \"content\": $json.text\n} }"
+            },
+            "type": "n8n-nodes-base.openAi",
+            "typeVersion": 4,
+            "position": [
+                -600,
+                -40
+            ],
+            "id": "8f2db2a8-5d40-4d0a-ba92-7e2ad3d5c502",
+            "name": "OpenAI Intent",
+            "credentials": {
+                "openAiApi": {
+                    "id": "REPLACE_OPENAI_CRED_ID",
+                    "name": "OpenAI Account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "functionCode": "// Cố gắng parse JSON model trả về\nlet raw = $json.data || $json.text || $json.choices?.[0]?.message?.content || JSON.stringify($json);\nraw = raw.trim();\nlet intentObj = { intent: 'info', message: raw };\ntry { intentObj = JSON.parse(raw); } catch(e) {}\nreturn [{ json: intentObj }];"
+            },
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                -380,
+                -40
+            ],
+            "id": "c5b85c0e-4b50-4f2a-9f46-9b0ac17f6c33",
+            "name": "Parse Intent"
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{$json.intent}}",
+                            "operation": "equal",
+                            "value2": "order"
+                        }
+                    ]
+                }
+            },
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                -160,
+                -40
+            ],
+            "id": "3d4f0d0c-92e7-4565-9e4a-3f88a7df9432",
+            "name": "Intent = order?"
+        },
+        {
+            "parameters": {
+                "url": "={{$env.WORKFLOW_ORDER_URL || 'https://example.com/webhook/order-create'}}",
+                "options": {},
+                "sendBody": true,
+                "jsonBody": true,
+                "bodyParametersJson": "={ { \n  \"userId\": $json.userId,\n  \"product\": $json.product,\n  \"size\": $json.size,\n  \"quantity\": $json.quantity || 1 \n} }"
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 1,
+            "position": [
+                80,
+                -120
+            ],
+            "id": "62d1b410-15f0-4d5d-bc26-12b9c7f0b4d9",
+            "name": "Forward Order"
+        },
+        {
+            "parameters": {
+                "url": "https://openapi.zalo.me/v3.0/oa/message/cs",
+                "method": "POST",
+                "sendBody": true,
+                "jsonBody": true,
+                "bodyParametersJson": "={ { \n  \"recipient\": { \"user_id\": $json.userId || 'unknown' },\n  \"message\": { \"text\": $json.message || 'Shop đã nhận được yêu cầu của bạn!' }\n} }"
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 1,
+            "position": [
+                80,
+                40
+            ],
+            "id": "7d0f3c69-0d80-4a5b-b5f7-0b23e40d45df",
+            "name": "Reply Info"
+        }
+    ],
+    "connections": {
+        "Webhook Chat": {
+            "main": [
+                [
+                    {
+                        "node": "Normalize",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Normalize": {
+            "main": [
+                [
+                    {
+                        "node": "OpenAI Intent",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "OpenAI Intent": {
+            "main": [
+                [
+                    {
+                        "node": "Parse Intent",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Parse Intent": {
+            "main": [
+                [
+                    {
+                        "node": "Intent = order?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Intent = order?": {
+            "main": [
+                [
+                    {
+                        "node": "Forward Order",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Reply Info",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "versionId": "1c8f0e5b-5f87-4de5-bc3d-2cd66e2d5b01",
+    "id": "wf_chatbot_ai",
+    "tags": []
+}

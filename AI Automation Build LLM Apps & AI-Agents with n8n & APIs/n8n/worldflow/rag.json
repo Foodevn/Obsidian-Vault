@@ -1,0 +1,489 @@
+{
+    "name": "My workflow",
+    "nodes": [
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://bot-api.zapps.me/bot1486451867943120380:DcuoUTdtkIikDOXPtoVPgbsWvxsqitmaKHpsrYmZVsOoSmxYxFbexmRlhqiwQRBx/setWebhook",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "url",
+                            "value": "https://n8n-zafo.onrender.com/webhook/670b4313-a9d9-42cd-a3c7-570f0e89bed2"
+                        },
+                        {
+                            "name": "secret_token",
+                            "value": "mykey-abcyxz"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                0,
+                0
+            ],
+            "id": "5bbfd088-3334-4498-8c98-25532accd86c",
+            "name": "HTTP Request"
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://bot-api.zapps.me/bot1486451867943120380:DcuoUTdtkIikDOXPtoVPgbsWvxsqitmaKHpsrYmZVsOoSmxYxFbexmRlhqiwQRBx/sendMessage",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "chat_id",
+                            "value": "={{ $('Webhook').item.json.body.message.chat.id }}"
+                        },
+                        {
+                            "name": "text",
+                            "value": "={{ $json.output }}"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                704,
+                400
+            ],
+            "id": "2e5f42c8-16a9-47b8-a5a3-a8f56618b726",
+            "name": "HTTP Request1"
+        },
+        {
+            "parameters": {
+                "promptType": "define",
+                "text": "={{ $json.body.message.text }}",
+                "options": {
+                    "systemMessage": "=Báº¡n lÃ  **trá»£ lÃ½ AI chuyÃªn nghiá»‡p** cá»§a má»™t **shop bÃ¡n quáº§n Ã¡o**, cÃ³ nhiá»‡m vá»¥ há»— trá»£ khÃ¡ch hÃ ng tÃ¬m kiáº¿m sáº£n pháº©m, tÆ° váº¥n phá»‘i Ä‘á»“ vÃ  Ä‘Æ°a ra gá»£i Ã½ mua sáº¯m **dá»±a trÃªn dá»¯ liá»‡u trong Vector Data**.\n### **NguyÃªn táº¯c hoáº¡t Ä‘á»™ng**\n\n1. **Chá»‰ sá»­ dá»¥ng dá»¯ liá»‡u tá»« Vector Data**\n    - Má»i thÃ´ng tin vá» sáº£n pháº©m, giÃ¡ cáº£, mÃ u sáº¯c, kÃ­ch cá»¡, khuyáº¿n mÃ£i, chÃ­nh sÃ¡ch Ä‘á»•i tráº£, vÃ  tá»“n kho **chá»‰ Ä‘Æ°á»£c láº¥y tá»« Vector Data**.\n    - **KhÃ´ng Ä‘Æ°á»£c láº¥y thÃ´ng tin tá»« Internet** hoáº·c nguá»“n nÃ o khÃ¡c.\n2. **KhÃ´ng bá»‹a Ä‘áº·t thÃ´ng tin**\n    - Náº¿u dá»¯ liá»‡u khÃ´ng tá»“n táº¡i trong Vector Data, **tuyá»‡t Ä‘á»‘i khÃ´ng tá»± suy Ä‘oÃ¡n hoáº·c bá»‹a ra**.\n    - Trong trÆ°á»ng há»£p **khÃ´ng tÃ¬m tháº¥y káº¿t quáº£ phÃ¹ há»£p**, tráº£ lá»i Ä‘Ãºng chuáº©n:\n        > **\"TÃ´i khÃ´ng biáº¿t\"**\n3. **TÆ° váº¥n phá»‘i Ä‘á»“ & gá»£i Ã½ sáº£n pháº©m**\n    - Khi tÆ° váº¥n phá»‘i Ä‘á»“, **chá»‰ gá»£i Ã½ dá»±a trÃªn cÃ¡c sáº£n pháº©m hiá»‡n cÃ³ trong Vector Data**.\n    - Náº¿u ngÆ°á»i dÃ¹ng muá»‘n gá»£i Ã½ cho dá»‹p Ä‘áº·c biá»‡t (vÃ­ dá»¥: Ä‘i lÃ m, Ä‘i tiá»‡c, Ä‘i chÆ¡i), hÃ£y lá»c sáº£n pháº©m phÃ¹ há»£p theo **kiá»ƒu dÃ¡ng, mÃ u sáº¯c, cháº¥t liá»‡u** Ä‘Ã£ cÃ³ trong Vector Data.\n    - Náº¿u khÃ´ng Ä‘á»§ dá»¯ liá»‡u Ä‘á»ƒ Ä‘Æ°a ra gá»£i Ã½ hoÃ n chá»‰nh, hÃ£y trung thá»±c tráº£ lá»i:\n        > **\"TÃ´i khÃ´ng biáº¿t\"**\n4. **Tráº£i nghiá»‡m khÃ¡ch hÃ ng**\n    - LuÃ´n tráº£ lá»i **ngáº¯n gá»n, rÃµ rÃ ng, dá»… hiá»ƒu**, vÃ  giá»¯ phong cÃ¡ch **thÃ¢n thiá»‡n, chuyÃªn nghiá»‡p**.\n    - Khi cÃ³ thá»ƒ, **Ä‘Æ°a ra gá»£i Ã½ thay tháº¿** náº¿u sáº£n pháº©m ngÆ°á»i dÃ¹ng muá»‘n Ä‘Ã£ háº¿t hÃ ng hoáº·c khÃ´ng tÃ¬m tháº¥y."
+                }
+            },
+            "type": "@n8n/n8n-nodes-langchain.agent",
+            "typeVersion": 2.2,
+            "position": [
+                288,
+                400
+            ],
+            "id": "95615387-b8f3-4180-a3b6-6444fc3c32d9",
+            "name": "AI Agent"
+        },
+        {
+            "parameters": {
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+            "typeVersion": 1,
+            "position": [
+                144,
+                608
+            ],
+            "id": "e18ce6bf-ad98-4af7-a98e-f4bcba470414",
+            "name": "Google Gemini Chat Model",
+            "credentials": {
+                "googlePalmApi": {
+                    "id": "hz9nz67bZ3c5jZXq",
+                    "name": "Google Gemini(PaLM) Api account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://bot-api.zapps.me/bot1486451867943120380:DcuoUTdtkIikDOXPtoVPgbsWvxsqitmaKHpsrYmZVsOoSmxYxFbexmRlhqiwQRBx/setWebhook",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "url",
+                            "value": "https://n8n-zafo.onrender.com/webhook-test/670b4313-a9d9-42cd-a3c7-570f0e89bed2"
+                        },
+                        {
+                            "name": "secret_token",
+                            "value": "mykey-abcyxz"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                0,
+                176
+            ],
+            "id": "86d49ef5-26cb-49c4-af15-11a37d8ddad3",
+            "name": "HTTP Request Test"
+        },
+        {
+            "parameters": {
+                "httpMethod": "POST",
+                "path": "670b4313-a9d9-42cd-a3c7-570f0e89bed2",
+                "options": {}
+            },
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 2.1,
+            "position": [
+                -16,
+                400
+            ],
+            "id": "76dee0ac-385d-496c-bd84-ea3b83983626",
+            "name": "Webhook",
+            "webhookId": "670b4313-a9d9-42cd-a3c7-570f0e89bed2"
+        },
+        {
+            "parameters": {
+                "mode": "retrieve-as-tool",
+                "toolDescription": "use this to get imfomation",
+                "tableName": {
+                    "__rl": true,
+                    "value": "documents",
+                    "mode": "list",
+                    "cachedResultName": "documents"
+                },
+                "topK": 10,
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+            "typeVersion": 1.3,
+            "position": [
+                496,
+                624
+            ],
+            "id": "5332beb0-722f-4588-b74f-c082e2425e15",
+            "name": "Supabase Vector Store",
+            "credentials": {
+                "supabaseApi": {
+                    "id": "vYfwfaO77mjTscUm",
+                    "name": "Supabase account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "documentId": {
+                    "__rl": true,
+                    "value": "15ueTbxlStOum2ZZGAVwg98tzeWrsiF8Htz1S9nhDa10",
+                    "mode": "list",
+                    "cachedResultName": "Quáº§n Ã¡o nam",
+                    "cachedResultUrl": "https://docs.google.com/spreadsheets/d/15ueTbxlStOum2ZZGAVwg98tzeWrsiF8Htz1S9nhDa10/edit?usp=drivesdk"
+                },
+                "sheetName": {
+                    "__rl": true,
+                    "value": 521222350,
+                    "mode": "list",
+                    "cachedResultName": "Sáº£n Pháº©m",
+                    "cachedResultUrl": "https://docs.google.com/spreadsheets/d/15ueTbxlStOum2ZZGAVwg98tzeWrsiF8Htz1S9nhDa10/edit#gid=521222350"
+                },
+                "options": {}
+            },
+            "type": "n8n-nodes-base.googleSheets",
+            "typeVersion": 4.7,
+            "position": [
+                1024,
+                224
+            ],
+            "id": "7f0783a4-0595-44f7-9c1a-8ad75616c04c",
+            "name": "Get row(s) in sheet",
+            "credentials": {
+                "googleSheetsOAuth2Api": {
+                    "id": "PUKRdK6jmzxUx1Rr",
+                    "name": "Google Sheets account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "mode": "insert",
+                "tableName": {
+                    "__rl": true,
+                    "value": "documents",
+                    "mode": "list",
+                    "cachedResultName": "documents"
+                },
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+            "typeVersion": 1.3,
+            "position": [
+                1712,
+                224
+            ],
+            "id": "2ac6e6b2-8139-4a14-892d-6ae53f111d43",
+            "name": "Supabase Vector Store1",
+            "credentials": {
+                "supabaseApi": {
+                    "id": "vYfwfaO77mjTscUm",
+                    "name": "Supabase account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+            "typeVersion": 1.2,
+            "position": [
+                1648,
+                416
+            ],
+            "id": "2db2df1b-05d8-44a2-a246-cbbb1086f550",
+            "name": "Embeddings OpenAI",
+            "credentials": {
+                "openAiApi": {
+                    "id": "XdEMbe4YB9pp5qyi",
+                    "name": "OpenAi account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+            "typeVersion": 1.1,
+            "position": [
+                1840,
+                416
+            ],
+            "id": "00efbf44-a024-482f-a23f-0ac7453103c8",
+            "name": "Default Data Loader"
+        },
+        {
+            "parameters": {
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+            "typeVersion": 1.2,
+            "position": [
+                352,
+                784
+            ],
+            "id": "78173194-43ad-4f87-89e8-0d933d7107a9",
+            "name": "Embeddings OpenAI1",
+            "credentials": {
+                "openAiApi": {
+                    "id": "XdEMbe4YB9pp5qyi",
+                    "name": "OpenAi account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "aggregate": "aggregateAllItemData",
+                "options": {}
+            },
+            "type": "n8n-nodes-base.aggregate",
+            "typeVersion": 1,
+            "position": [
+                1232,
+                224
+            ],
+            "id": "8f3184d5-4d57-46b9-9d39-ebb805d80b90",
+            "name": "Aggregate"
+        },
+        {
+            "parameters": {
+                "fieldsToSummarize": {
+                    "values": [
+                        {
+                            "aggregation": "concatenate",
+                            "field": "data"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "type": "n8n-nodes-base.summarize",
+            "typeVersion": 1.1,
+            "position": [
+                1440,
+                224
+            ],
+            "id": "e43cc9c3-a89c-478a-8dda-4b63bd85742e",
+            "name": "Summarize"
+        },
+        {
+            "parameters": {
+                "sessionIdType": "customKey",
+                "sessionKey": "={{ $('Webhook').item.json.body.message.message_id }}"
+            },
+            "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+            "typeVersion": 1.3,
+            "position": [
+                128,
+                752
+            ],
+            "id": "2ab3efd4-975f-4177-af84-de387d7a4bed",
+            "name": "Postgres Chat Memory",
+            "credentials": {
+                "postgres": {
+                    "id": "69NRbNgMesIOgyAB",
+                    "name": "Postgres account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "sessionIdType": "customKey",
+                "sessionKey": "={{ $('Webhook').item.json.body.message.message_id }}",
+                "contextWindowLength": 2
+            },
+            "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+            "typeVersion": 1.3,
+            "position": [
+                304,
+                608
+            ],
+            "id": "c3ddf01f-e349-4325-822a-6a778b686925",
+            "name": "Simple Memory"
+        }
+    ],
+    "pinData": {},
+    "connections": {
+        "AI Agent": {
+            "main": [
+                [
+                    {
+                        "node": "HTTP Request1",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Google Gemini Chat Model": {
+            "ai_languageModel": [
+                [
+                    {
+                        "node": "AI Agent",
+                        "type": "ai_languageModel",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Webhook": {
+            "main": [
+                [
+                    {
+                        "node": "AI Agent",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Supabase Vector Store": {
+            "ai_tool": [
+                [
+                    {
+                        "node": "AI Agent",
+                        "type": "ai_tool",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get row(s) in sheet": {
+            "main": [
+                [
+                    {
+                        "node": "Aggregate",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Embeddings OpenAI": {
+            "ai_embedding": [
+                [
+                    {
+                        "node": "Supabase Vector Store1",
+                        "type": "ai_embedding",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Default Data Loader": {
+            "ai_document": [
+                [
+                    {
+                        "node": "Supabase Vector Store1",
+                        "type": "ai_document",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Embeddings OpenAI1": {
+            "ai_embedding": [
+                [
+                    {
+                        "node": "Supabase Vector Store",
+                        "type": "ai_embedding",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Aggregate": {
+            "main": [
+                [
+                    {
+                        "node": "Summarize",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Summarize": {
+            "main": [
+                [
+                    {
+                        "node": "Supabase Vector Store1",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Postgres Chat Memory": {
+            "ai_memory": [
+                []
+            ]
+        },
+        "Simple Memory": {
+            "ai_memory": [
+                [
+                    {
+                        "node": "AI Agent",
+                        "type": "ai_memory",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "versionId": "fb9a2939-08cc-4837-ab9a-20923009544b",
+    "meta": {
+        "templateCredsSetupCompleted": true,
+        "instanceId": "703f05059cee23d1942c15146261f63afb4f21d60f07a4a8cbece34aef684fdd"
+    },
+    "id": "QeMI8rJJEBLvJ0ea",
+    "tags": []
+}
