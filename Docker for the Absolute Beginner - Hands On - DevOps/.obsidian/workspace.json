@@ -25,14 +25,22 @@
             "id": "0e19b832c083f9a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "4-22. Demo - Creating a new Docker Image.md",
-                "mode": "source",
-                "source": false
+                "file": "Docker+for+Beginners-Mumshad+Mannambeth.pdf"
               },
-              "icon": "lucide-file",
-              "title": "4-22. Demo - Creating a new Docker Image"
+              "icon": "lucide-file-text",
+              "title": "Docker+for+Beginners-Mumshad+Mannambeth"
+            }
+          },
+          {
+            "id": "53893c49c80d90c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
             }
           }
         ],
@@ -184,17 +192,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "0e19b832c083f9a6",
+  "active": "1b608473a4312a14",
   "lastOpenFiles": [
-    "4-21. Docker Images.md",
-    "Chưa đặt tên.md",
+    "Section 4. Docker Images/4-22. Demo - Creating a new Docker Image.md",
+    "Section 4. Docker Images/4-21. Docker Images.md",
+    "Section 4. Docker Images/4-26. Command vs Entrypoint.md",
+    "Section 4. Docker Images/4-24. Environment Variables.md",
+    "Docker+for+Beginners-Mumshad+Mannambeth.pdf",
+    "4-26. Command vs Entrypoint.md",
     "4-22. Demo - Creating a new Docker Image.md",
+    "4-21. Docker Images.md",
+    "Section 3. Docker Run/3-18. Article on Jenkins Image.md",
+    "Section 3. Docker Run/3-17. Docker Run.md",
+    "Chưa đặt tên.base",
+    "Section 1. Introduction/1-01. Introduction.md",
+    "Section 3. Docker Run/3-19. Demo - Advanced Docker Run Features.md",
     "4-24. Environment Variables.md",
     "Section 2. Command Docker/2-11. Demo - Docker Commands.md",
     "Section 2. Command Docker/2-13. Demo - Docker Labs.md",
     "Section 2. Command Docker/2-14. Demo - Accessing labs.md",
     "Section 2. Command Docker/2-16. Labs - Basic Docker Commands.md",
-    "Section 2. Command Docker/2-15. Course setup - accessing the labs.md",
-    "Section 3. Docker Run/3-18. Article on Jenkins Image.md"
+    "Section 2. Command Docker/2-15. Course setup - accessing the labs.md"
   ]
 }
