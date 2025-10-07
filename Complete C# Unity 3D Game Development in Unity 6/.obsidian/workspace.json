@@ -4,95 +4,207 @@
     "type": "split",
     "children": [
       {
-        "id": "3eb2497b82b279dc",
+        "id": "83f6ade8883f7679",
         "type": "tabs",
         "children": [
           {
-            "id": "15ade04636d4aeab",
+            "id": "1f220b99b48a9d71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-3. Download Unity & VS Code.md",
+                "file": "Section 2. Obstacle Dodge/2-09. Start() & Update().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-3. Download Unity & VS Code"
+              "title": "2-09. Start() & Update()"
             }
           },
           {
-            "id": "6f35ca22a6d45115",
+            "id": "bb5ab90c4fc081e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-4. Introducing Unity.md",
+                "file": "Section 2. Obstacle Dodge/2-10. Introducing Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-4. Introducing Unity"
+              "title": "2-10. Introducing Variables"
             }
           },
           {
-            "id": "4947fdac853f30cc",
+            "id": "cc06ff498a22ba63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Introduction & Setup/1-5. Set Up VS Code.md",
+                "file": "Section 2. Obstacle Dodge/2-11. Using SerializeField.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-5. Set Up VS Code"
+              "title": "2-11. Using SerializeField"
             }
           },
           {
-            "id": "d8eb73601037cf58",
+            "id": "891c60fb45882819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Introduction & Setup/1-1. Welcome To The Course.md",
+                "file": "Section 2. Obstacle Dodge/2-12. C shap Formatting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-1. Welcome To The Course"
+              "title": "2-12. C shap Formatting"
             }
           },
           {
-            "id": "a444598070a792bb",
+            "id": "34dc08b963df4772",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Introduction & Setup/1-7. Accessing Our Projects.md",
+                "file": "Section 2. Obstacle Dodge/2-11. Using SerializeField.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-7. Accessing Our Projects"
+              "title": "2-11. Using SerializeField"
             }
           },
           {
-            "id": "3ad9c3fe6373e8cb",
+            "id": "005328c1c4fa2e41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Introduction & Setup/1-1. Welcome To The Course.md",
+                "file": "Section 2. Obstacle Dodge/2-13. Using Input.GetAxis().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-1. Welcome To The Course"
+              "title": "2-13. Using Input.GetAxis()"
+            }
+          },
+          {
+            "id": "ea2f7ba2aae65588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-13. Using Input.GetAxis().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-13. Using Input.GetAxis()"
+            }
+          },
+          {
+            "id": "f694617fb67658f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-14. Time.deltaTime.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-14. Time.deltaTime"
+            }
+          },
+          {
+            "id": "4b8c6780170699ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-15. Introducing Cinemachine.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-15. Introducing Cinemachine"
+            }
+          },
+          {
+            "id": "19ba12b72e445650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-16. Basic Collisions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-16. Basic Collisions"
+            }
+          },
+          {
+            "id": "1fd0b91745a8b415",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-18. Practicing With Methods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-18. Practicing With Methods"
+            }
+          },
+          {
+            "id": "ae0f6cd9d73be0af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-18. Practicing With Methods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-18. Practicing With Methods"
+            }
+          },
+          {
+            "id": "40fc8425e2ae244a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 2. Obstacle Dodge/2-17. Understanding Methods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-17. Understanding Methods"
+            }
+          },
+          {
+            "id": "87c2c9f6b70069eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-20. Using GetComponent().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-20. Using GetComponent()"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -237,17 +349,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "3ad9c3fe6373e8cb",
+  "active": "87c2c9f6b70069eb",
   "lastOpenFiles": [
-    "2-09. Start() & Update().md",
+    "Section 2. Obstacle Dodge/2-17. Understanding Methods.md",
+    "2-20. Using GetComponent().md",
+    "Section 2. Obstacle Dodge/2-19. Using OnCollisionEnter().md",
+    "Section 2. Obstacle Dodge/2-18. Practicing With Methods.md",
+    "Section 2. Obstacle Dodge/2-13. Using Input.GetAxis().md",
+    "Section 2. Obstacle Dodge/2-14. Time.deltaTime.md",
+    "Section 2. Obstacle Dodge/2-15. Introducing Cinemachine.md",
+    "Section 2. Obstacle Dodge/2-16. Basic Collisions.md",
+    "Section 2. Obstacle Dodge/2-11. Using SerializeField.md",
+    "Section 2. Obstacle Dodge/2-12. C shap Formatting.md",
+    "Section 2. Obstacle Dodge/2-10. Introducing Variables.md",
     "Section 2. Obstacle Dodge/2-09. Start() & Update().md",
-    "Section 2. Obstacle Dodge/2-08. Section Intro - Obstacle Dodge.md",
-    "2-08. Section Intro - Obstacle Dodge.md",
-    "Section 1. Introduction & Setup/1-1. Welcome To The Course.md",
-    "Section 2. Obstacle Dodge",
     "Section 1. Introduction & Setup/1-7. Accessing Our Projects.md",
-    "Section 1. Introduction & Setup/1-6. Community & Support.md",
+    "Section 1. Introduction & Setup/1-1. Welcome To The Course.md",
     "Section 1. Introduction & Setup/1-5. Set Up VS Code.md",
+    "Section 2. Obstacle Dodge/2-08. Section Intro - Obstacle Dodge.md",
+    "2-09. Start() & Update().md",
+    "2-08. Section Intro - Obstacle Dodge.md",
+    "Section 2. Obstacle Dodge",
+    "Section 1. Introduction & Setup/1-6. Community & Support.md",
     "Section 1. Introduction & Setup/1-4. Introducing Unity.md",
     "Section 1. Introduction & Setup/1-3. Download Unity & VS Code.md",
     "Section 1. Introduction & Setup/1-2. Content Now in Unity 6!.md",
@@ -255,12 +378,8 @@
     "Section 6. Singleton/6-36. Overview.md",
     "Section 10. Decorator/10-58. Overview.md",
     "oop/Abstraction (Trừu tượng) trong OOP.md",
-    "oop/opp cần biết.md",
-    "oop/Encapsulation (Đóng gói) trong OOP.md",
     "Section 10. Decorator",
     "oop",
-    "Section 6. Singleton/6-38. Testability Issues.md",
-    "Section 6. Singleton/6-37. Singleton Implementation.md",
     "Section 6. Singleton"
   ]
 }
