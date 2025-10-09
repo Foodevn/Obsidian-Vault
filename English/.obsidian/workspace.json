@@ -1,70 +1,110 @@
 {
   "main": {
-    "id": "f63c42be79ade908",
+    "id": "49790c22c4c2a7d8",
     "type": "split",
     "children": [
       {
-        "id": "c70938b9a9038325",
+        "id": "f897049bcd561aa7",
         "type": "tabs",
         "children": [
           {
-            "id": "e0fbb94f5eab407c",
+            "id": "e3b0e1690c078711",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2. Obstacle Dodge/2-24. Caching A Reference.md",
+                "file": "từ vựng.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "2-24. Caching A Reference"
+              "title": "từ vựng"
             }
           },
           {
-            "id": "cdcc57348ea159eb",
+            "id": "7a964f9ab229c38b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2-22. Using Time.time"
+              "title": "Tab mới"
             }
           },
           {
-            "id": "5e63a8ecfd77d0f1",
+            "id": "3c49b0c3ce74a305",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2. Obstacle Dodge/2-26. Rotate An Object.md",
+                "file": "1-2. Course Navigation and Course Outline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-26. Rotate An Object"
+              "title": "1-2. Course Navigation and Course Outline"
+            }
+          },
+          {
+            "id": "14113514e5753077",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-2. Course Navigation and Course Outline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-2. Course Navigation and Course Outline"
+            }
+          },
+          {
+            "id": "7ac2656e9aa2727b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-3. Course Review, Course Certificate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-3. Course Review, Course Certificate"
+            }
+          },
+          {
+            "id": "5c8096521ed09139",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The English Master Course English Grammar, English Speaking/Section 1. Getting Started/1-2. Course Navigation and Course Outline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-2. Course Navigation and Course Outline"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c1ae8981c10c2716",
+    "id": "bf83a775de4c8813",
     "type": "split",
     "children": [
       {
-        "id": "bbd9846059c3ab61",
+        "id": "415dff56ae546d90",
         "type": "tabs",
         "children": [
           {
-            "id": "d44eba30c6bbd144",
+            "id": "e297045ac5410767",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,7 +117,7 @@
             }
           },
           {
-            "id": "3030edb1a1a3d1f3",
+            "id": "62728098f65537fe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -94,7 +134,7 @@
             }
           },
           {
-            "id": "e76f11eae9a094ce",
+            "id": "145d08dc5d21e13a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,19 +150,20 @@
     "width": 300
   },
   "right": {
-    "id": "ba9183b3d6431673",
+    "id": "aa1c91efe311ec73",
     "type": "split",
     "children": [
       {
-        "id": "852bb8708a29b694",
+        "id": "8ced4b06460bf1e7",
         "type": "tabs",
         "children": [
           {
-            "id": "0b2450e1134b229c",
+            "id": "623eaaf52642d13a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "từ vựng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,11 +173,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến"
+              "title": "Liên kết đến của từ vựng"
             }
           },
           {
-            "id": "f9e768f3187fa014",
+            "id": "dc515ebd86ef28bb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -149,7 +190,7 @@
             }
           },
           {
-            "id": "e04bcdbb4b4878b8",
+            "id": "c7ca02a3b1fb5852",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,7 +205,7 @@
             }
           },
           {
-            "id": "420ab9e383a54fb1",
+            "id": "8cf4c118434d8d13",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -195,38 +236,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "d44eba30c6bbd144",
+  "active": "e297045ac5410767",
   "lastOpenFiles": [
-    "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
-    "Section 2. Obstacle Dodge/2-26. Rotate An Object.md",
-    "Section 2. Obstacle Dodge/2-25. Using Tags.md",
-    "Section 2. Obstacle Dodge/2-24. Caching A Reference.md",
-    "Chưa đặt tên.canvas",
-    "Section 2. Obstacle Dodge/2-12. C shap Formatting.md",
-    "Section 2. Obstacle Dodge/2-11. Using SerializeField.md",
-    "Section 2. Obstacle Dodge/2-10. Introducing Variables.md",
-    "Section 2. Obstacle Dodge/2-09. Start() & Update().md",
-    "Section 2. Obstacle Dodge/2-23. If Statements.md",
-    "Section 2. Obstacle Dodge/2-15. Introducing Cinemachine.md",
-    "Section 2. Obstacle Dodge/2-14. Time.deltaTime.md",
-    "Section 2. Obstacle Dodge/2-13. Using Input.GetAxis().md",
-    "Section 2. Obstacle Dodge/2-21. Incrementing a Score.md",
-    "Section 2. Obstacle Dodge/2-20. Using GetComponent().md",
-    "Section 2. Obstacle Dodge/2-17. Understanding Methods.md",
-    "Section 2. Obstacle Dodge/2-19. Using OnCollisionEnter().md",
-    "Section 2. Obstacle Dodge/2-18. Practicing With Methods.md",
-    "Section 2. Obstacle Dodge/2-16. Basic Collisions.md",
-    "Section 1. Introduction & Setup/1-7. Accessing Our Projects.md",
-    "Section 1. Introduction & Setup/1-1. Welcome To The Course.md",
-    "Section 1. Introduction & Setup/1-5. Set Up VS Code.md",
-    "Section 2. Obstacle Dodge/2-08. Section Intro - Obstacle Dodge.md",
-    "2-09. Start() & Update().md",
-    "2-08. Section Intro - Obstacle Dodge.md",
-    "Section 2. Obstacle Dodge",
-    "Section 1. Introduction & Setup/1-6. Community & Support.md",
-    "Section 1. Introduction & Setup/1-4. Introducing Unity.md",
-    "Section 10. Decorator",
-    "oop",
-    "Section 6. Singleton"
+    "The English Master Course English Grammar, English Speaking/Section 1. Getting Started/1-3. Course Review, Course Certificate.md",
+    "The English Master Course English Grammar, English Speaking/Section 1. Getting Started/1-2. Course Navigation and Course Outline.md",
+    "từ vựng.md",
+    "The English Master Course English Grammar, English Speaking/Section 1. Getting Started/1-1. Welcome and Course Introduction.md",
+    "The English Master Course English Grammar, English Speaking/Section 1. Getting Started"
   ]
 }
