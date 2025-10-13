@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chưa đặt tên.md",
+                "file": "Factory Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chưa đặt tên"
+              "title": "Factory Method"
             }
           }
         ],
@@ -282,7 +282,7 @@
   "active": "a2d24eea40583d21",
   "lastOpenFiles": [
     "Strategy Design Pattern.md",
-    "Chưa đặt tên.md",
+    "Factory Method.md",
     "Section 6. Singleton/6-36. Overview.md",
     "Section 10. Decorator/10-58. Overview.md",
     "oop/Abstraction (Trừu tượng) trong OOP.md",

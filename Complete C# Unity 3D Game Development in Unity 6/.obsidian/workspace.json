@@ -8,49 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0fbb94f5eab407c",
+            "id": "035d39c5cc14d99b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 2. Obstacle Dodge/2-24. Caching A Reference.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2-24. Caching A Reference"
-            }
-          },
-          {
-            "id": "cdcc57348ea159eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2-22. Using Time.time"
-            }
-          },
-          {
-            "id": "5e63a8ecfd77d0f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 2. Obstacle Dodge/2-26. Rotate An Object.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2-26. Rotate An Object"
+              "title": "Tab mới"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,34 +164,34 @@
   },
   "active": "d44eba30c6bbd144",
   "lastOpenFiles": [
-    "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
+    "2-34. Wrap Up - Obstacle Dodge.md",
+    "2-33. Add Hazards To Level.md",
+    "Section 2. Obstacle Dodge/2-32. Level Layout.md",
+    "Section 2. Obstacle Dodge/2-31. Unity Order of Execution.md",
+    "nhap.md",
+    "Section 2. Obstacle Dodge/2-30. Introducing Prefabs.md",
+    "Section 2. Obstacle Dodge/2-29. Trigger Projectile.md",
+    "Section 2. Obstacle Dodge/2-28. Destroy Object.md",
+    "Section 2. Obstacle Dodge/2-27. Fly At Player.md",
     "Section 2. Obstacle Dodge/2-26. Rotate An Object.md",
     "Section 2. Obstacle Dodge/2-25. Using Tags.md",
     "Section 2. Obstacle Dodge/2-24. Caching A Reference.md",
-    "Chưa đặt tên.canvas",
-    "Section 2. Obstacle Dodge/2-12. C shap Formatting.md",
-    "Section 2. Obstacle Dodge/2-11. Using SerializeField.md",
-    "Section 2. Obstacle Dodge/2-10. Introducing Variables.md",
-    "Section 2. Obstacle Dodge/2-09. Start() & Update().md",
     "Section 2. Obstacle Dodge/2-23. If Statements.md",
-    "Section 2. Obstacle Dodge/2-15. Introducing Cinemachine.md",
-    "Section 2. Obstacle Dodge/2-14. Time.deltaTime.md",
-    "Section 2. Obstacle Dodge/2-13. Using Input.GetAxis().md",
+    "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
     "Section 2. Obstacle Dodge/2-21. Incrementing a Score.md",
     "Section 2. Obstacle Dodge/2-20. Using GetComponent().md",
     "Section 2. Obstacle Dodge/2-17. Understanding Methods.md",
-    "Section 2. Obstacle Dodge/2-19. Using OnCollisionEnter().md",
-    "Section 2. Obstacle Dodge/2-18. Practicing With Methods.md",
     "Section 2. Obstacle Dodge/2-16. Basic Collisions.md",
-    "Section 1. Introduction & Setup/1-7. Accessing Our Projects.md",
-    "Section 1. Introduction & Setup/1-1. Welcome To The Course.md",
-    "Section 1. Introduction & Setup/1-5. Set Up VS Code.md",
+    "Section 2. Obstacle Dodge/2-10. Introducing Variables.md",
+    "Section 2. Obstacle Dodge/2-09. Start() & Update().md",
     "Section 2. Obstacle Dodge/2-08. Section Intro - Obstacle Dodge.md",
-    "2-09. Start() & Update().md",
-    "2-08. Section Intro - Obstacle Dodge.md",
+    "Chưa đặt tên.md",
+    "Chưa đặt tên.canvas",
+    "Section 2. Obstacle Dodge/2-12. C shap Formatting.md",
+    "Section 2. Obstacle Dodge/2-11. Using SerializeField.md",
+    "Section 2. Obstacle Dodge/2-15. Introducing Cinemachine.md",
+    "Section 2. Obstacle Dodge/2-14. Time.deltaTime.md",
     "Section 2. Obstacle Dodge",
-    "Section 1. Introduction & Setup/1-6. Community & Support.md",
-    "Section 1. Introduction & Setup/1-4. Introducing Unity.md",
     "Section 10. Decorator",
     "oop",
     "Section 6. Singleton"
