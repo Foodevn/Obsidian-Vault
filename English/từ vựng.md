@@ -16,6 +16,41 @@
 | predicate       | n   | vị ngữ            |
 | subject         |     | chủ thể           |
 | incorrect       |     | không đúng        |
+| prepare         | v   | chuẩn bị          |
+| practice        |     | luyện tập         |
+| pressure        | n   | áp lực            |
+| spontaneously   | tt  | một cách tự phát  |
+| pronunciation   |     | cách phát âm      |
+| during          |     | trong lúc         |
+| fear            | n   | nỗi sợ            |
+| chance          |     | cơ hội            |
+| clarification   | n   | làm rõ            |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
+|                 |     |                   |
 |                 |     |                   |
 |                 |     |                   |
 |                 |     |                   |
