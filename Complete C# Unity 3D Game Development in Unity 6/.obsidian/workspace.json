@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c70938b9a9038325",
+        "id": "3b1f9f95d5e455a9",
         "type": "tabs",
         "children": [
           {
-            "id": "035d39c5cc14d99b",
+            "id": "68cf26334a7c26bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2. Obstacle Dodge/2-33. Add Hazards To Level.md",
+                "file": "4-73. Master Timeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-33. Add Hazards To Level"
-            }
-          },
-          {
-            "id": "52cf134a47eb680d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 3. Rocket Boost/3-35. Section Intro - Rocket Boost.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-35. Section Intro - Rocket Boost"
-            }
-          },
-          {
-            "id": "3fd3d7b661f2e15c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4-69. Section Intro - Galaxy Strike.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4-69. Section Intro - Galaxy Strike"
-            }
-          },
-          {
-            "id": "9843f55743bb0abc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4-70. Using Terrain ToolsChưa đặt tên.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4-70. Using Terrain ToolsChưa đặt tên"
+              "title": "4-73. Master Timeline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,36 +166,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "d44eba30c6bbd144",
+  "active": "68cf26334a7c26bc",
   "lastOpenFiles": [
+    "Section 4. Galaxy Strike/4-72. Texturing Terrain.md",
+    "Transform and Twist.md",
+    "Section 4. Galaxy Strike/4-71. Additional Terrain Features.md",
+    "4-73. Master Timeline.md",
+    "4-75. Animate Enemy Using Timeline.md",
+    "4-76. Input Action Map.md",
+    "4-74. Animation Curves.md",
+    "4-109. Wrap Up - Galaxy Strike.md",
+    "4-108. Your Vertical Slice.md",
+    "4-107. Music Singleton.md",
+    "4-106. Reload Level Using Coroutines.md",
+    "4-105. Layers & Multiple Volume Profiles.md",
+    "4-104. Post Processing.md",
+    "4-103. Skybox.md",
+    "4-102. Rendering, Lighting, & Shadows.md",
+    "4-101. Paint Trees on Terrain.md",
+    "4-100. Portrait Camera Render Texture.md",
+    "4-99. Displaying Dialogue Using Signals.md",
+    "4-98. Timeline Audio.md",
+    "4-97. Enemy Waves Using Control Tracks.md",
+    "4-96. Scoreboard UI.md",
+    "4-95. Public Methods C shap.md",
+    "4-94. Enemy Hit Points.md",
+    "4-93. Tune & Tweak.md",
+    "4-92. Enemy Ship Variants.md",
+    "4-91. Nested Prefabs & Prefab Variants.md",
     "Section 3. Rocket Boost/2_RB_UC3D4+GameDev.tv+Sci+Fi+Starter+Assets.zip",
-    "4-69. Section Intro - Galaxy Strike.md",
-    "4-70. Using Terrain ToolsChưa đặt tên.md",
-    "Particle System.md",
-    "Section 3. Rocket Boost/3-35. Section Intro - Rocket Boost.md",
     "Section 4. Galaxy Strike",
     "Section 3. Rocket Boost",
-    "Section 2. Obstacle Dodge/2-33. Add Hazards To Level.md",
-    "Section 2. Obstacle Dodge/2-34. Wrap Up - Obstacle Dodge.md",
-    "Section 2. Obstacle Dodge/2-32. Level Layout.md",
-    "Section 2. Obstacle Dodge/2-31. Unity Order of Execution.md",
-    "nhap.md",
-    "Section 2. Obstacle Dodge/2-30. Introducing Prefabs.md",
-    "Section 2. Obstacle Dodge/2-29. Trigger Projectile.md",
-    "Section 2. Obstacle Dodge/2-28. Destroy Object.md",
-    "Section 2. Obstacle Dodge/2-27. Fly At Player.md",
-    "Section 2. Obstacle Dodge/2-26. Rotate An Object.md",
-    "Section 2. Obstacle Dodge/2-25. Using Tags.md",
-    "Section 2. Obstacle Dodge/2-24. Caching A Reference.md",
-    "Section 2. Obstacle Dodge/2-23. If Statements.md",
-    "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
-    "Section 2. Obstacle Dodge/2-21. Incrementing a Score.md",
-    "Section 2. Obstacle Dodge/2-20. Using GetComponent().md",
-    "Section 2. Obstacle Dodge/2-17. Understanding Methods.md",
-    "Section 2. Obstacle Dodge/2-16. Basic Collisions.md",
-    "Section 2. Obstacle Dodge/2-10. Introducing Variables.md",
-    "Section 2. Obstacle Dodge/2-09. Start() & Update().md",
-    "Section 2. Obstacle Dodge/2-08. Section Intro - Obstacle Dodge.md",
     "Chưa đặt tên.canvas",
     "Section 2. Obstacle Dodge",
     "Section 10. Decorator",
