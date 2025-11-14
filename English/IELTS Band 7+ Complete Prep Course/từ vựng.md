@@ -25,21 +25,21 @@
 | fear            | n   | nỗi sợ            |
 | chance          |     | cơ hội            |
 | clarification   | n   | làm rõ            |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
-|                 |     |                   |
+| attack          | v   | tấn công          |
+| in terms        |     | về mặt thuật ngữ  |
+| graded          |     | Chấm điểm         |
+| rubric          |     | Phiếu tự đánh giá |
+| objective       |     | khách quan        |
+| still           |     | vẫn               |
+| occur           |     | xảy ra            |
+| ability         |     | khả năng          |
+| measurement     |     | đo lường          |
+| consistent      |     | nhất quán         |
+| govern          |     | cai trị           |
+| Dear            |     | Kính thưa         |
+| preparation     |     | chuẩn bị          |
+| confidently     |     | tự tin            |
+| relevant        |     | phù hợp           |
 |                 |     |                   |
 |                 |     |                   |
 |                 |     |                   |

@@ -1,41 +1,54 @@
 {
   "main": {
-    "id": "f63c42be79ade908",
+    "id": "2c02d3988fce1291",
     "type": "split",
     "children": [
       {
-        "id": "3b1f9f95d5e455a9",
+        "id": "b990f8a80a11550f",
         "type": "tabs",
         "children": [
           {
-            "id": "68cf26334a7c26bc",
+            "id": "d59b8f34541d7463",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "4. Cac qua trinh kiem thu.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "4. Cac qua trinh kiem thu"
+            }
+          },
+          {
+            "id": "26e82b3082381569",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-76. Input Action Map.md",
+                "file": "Kiến thức Nền tảng.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-76. Input Action Map"
+              "title": "Kiến thức Nền tảng"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c1ae8981c10c2716",
+    "id": "61b79baf4ff87079",
     "type": "split",
     "children": [
       {
-        "id": "bbd9846059c3ab61",
+        "id": "3b4de737e0bc2ea3",
         "type": "tabs",
         "children": [
           {
-            "id": "d44eba30c6bbd144",
+            "id": "a6508c3f82353ac2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +61,7 @@
             }
           },
           {
-            "id": "3030edb1a1a3d1f3",
+            "id": "29d0f723859e3da3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +78,7 @@
             }
           },
           {
-            "id": "e76f11eae9a094ce",
+            "id": "541c92781f021051",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,19 +94,20 @@
     "width": 300
   },
   "right": {
-    "id": "ba9183b3d6431673",
+    "id": "c608966511c33cbc",
     "type": "split",
     "children": [
       {
-        "id": "852bb8708a29b694",
+        "id": "41ba4965bbf1b65e",
         "type": "tabs",
         "children": [
           {
-            "id": "0b2450e1134b229c",
+            "id": "ca9b1b8895f4eb62",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kiến thức Nền tảng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +117,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến"
+              "title": "Liên kết đến của Kiến thức Nền tảng"
             }
           },
           {
-            "id": "f9e768f3187fa014",
+            "id": "84b0355a1620b66d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kiến thức Nền tảng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra"
+              "title": "Liên kết đi ra từ Kiến thức Nền tảng"
             }
           },
           {
-            "id": "e04bcdbb4b4878b8",
+            "id": "29d266d7e1f5cf73",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,20 +150,22 @@
             }
           },
           {
-            "id": "420ab9e383a54fb1",
+            "id": "3aa1cecb66a642cd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Kiến thức Nền tảng.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương"
+              "title": "Đề cương của Kiến thức Nền tảng"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -166,41 +183,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "68cf26334a7c26bc",
+  "active": "26e82b3082381569",
   "lastOpenFiles": [
-    "Transform and Twist.md",
-    "4-76. Input Action Map.md",
     "Chưa đặt tên.md",
-    "Section 4. Galaxy Strike/4-75. Animate Enemy Using Timeline.md",
-    "Section 4. Galaxy Strike/4-74. Animation Curves.md",
-    "Section 2. Obstacle Dodge/PowerPoint Script - Obstacle Dodge Summary.md",
-    "Section 2. Obstacle Dodge/2-25. Using Tags.md",
-    "Section 2. Obstacle Dodge/2-24. Caching A Reference.md",
-    "Section 2. Obstacle Dodge/2-23. If Statements.md",
-    "Section 2. Obstacle Dodge/2-22. Using Time.time.md",
-    "Section 4. Galaxy Strike/4-73. Master Timeline.md",
-    "Section 4. Galaxy Strike/4-72. Texturing Terrain.md",
-    "Section 4. Galaxy Strike/4-71. Additional Terrain Features.md",
-    "4-109. Wrap Up - Galaxy Strike.md",
-    "4-108. Your Vertical Slice.md",
-    "4-107. Music Singleton.md",
-    "4-106. Reload Level Using Coroutines.md",
-    "4-105. Layers & Multiple Volume Profiles.md",
-    "4-104. Post Processing.md",
-    "4-103. Skybox.md",
-    "4-102. Rendering, Lighting, & Shadows.md",
-    "4-101. Paint Trees on Terrain.md",
-    "4-100. Portrait Camera Render Texture.md",
-    "4-99. Displaying Dialogue Using Signals.md",
-    "4-98. Timeline Audio.md",
-    "4-97. Enemy Waves Using Control Tracks.md",
-    "Section 3. Rocket Boost/2_RB_UC3D4+GameDev.tv+Sci+Fi+Starter+Assets.zip",
-    "Section 4. Galaxy Strike",
-    "Section 3. Rocket Boost",
-    "Chưa đặt tên.canvas",
-    "Section 2. Obstacle Dodge",
-    "Section 10. Decorator",
-    "oop",
-    "Section 6. Singleton"
+    "1. Gioi thieu KTPM.pdf",
+    "4. Cac qua trinh kiem thu.pdf",
+    "6. Cac chu de nang cao.pdf",
+    "5. Kiem thu tinh.pdf",
+    "0. Gioi thieu hoc phan.pdf",
+    "2. Kiem thu hop den.pdf",
+    "3. Kiem thu hop trang.pdf",
+    "Kiến thức Nền tảng.md"
   ]
 }
