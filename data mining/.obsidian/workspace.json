@@ -6,7 +6,7 @@
       {
         "id": "3fe76294e52d53b6",
         "type": "tabs",
-        "dimension": 61.37770897832817,
+        "dimension": 61.53250773993808,
         "children": [
           {
             "id": "dcd10adbecff173c",
@@ -25,7 +25,7 @@
       {
         "id": "c883469b04095bb6",
         "type": "tabs",
-        "dimension": 38.62229102167183,
+        "dimension": 38.46749226006192,
         "children": [
           {
             "id": "4144e09d68b520ad",
@@ -187,14 +187,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "4144e09d68b520ad",
+  "active": "dcd10adbecff173c",
   "lastOpenFiles": [
-    "1-s2.0-S0950705125014923-main.pdf",
     "3. List-based damped high utiluty occupancy pattern analysis.md",
-    "{FBC574CC-C811-4D77-9579-2CF43FEFD732}.png",
-    "{5B9A73BE-697E-4E8F-9C7C-A3A7B3FDA642}.png",
-    "{50D884A9-94AF-4ED9-8268-4560E973F161}.png",
-    "{D268535B-29E1-4F05-8E66-DBCF233F86FC}.png",
+    "1-s2.0-S0950705125014923-main.pdf",
+    "ảnh/{FBC574CC-C811-4D77-9579-2CF43FEFD732}.png",
+    "ảnh/{5B9A73BE-697E-4E8F-9C7C-A3A7B3FDA642}.png",
+    "ảnh/{50D884A9-94AF-4ED9-8268-4560E973F161}.png",
+    "ảnh/{D268535B-29E1-4F05-8E66-DBCF233F86FC}.png",
     "khái niệm/Chiếm dụng.md",
     "ảnh/{E18AB294-5EBB-4423-8C83-363FF38850BE}.png",
     "khái niệm",
