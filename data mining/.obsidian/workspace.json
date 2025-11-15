@@ -6,7 +6,7 @@
       {
         "id": "3fe76294e52d53b6",
         "type": "tabs",
-        "dimension": 55.3405572755418,
+        "dimension": 49.53560371517028,
         "children": [
           {
             "id": "dcd10adbecff173c",
@@ -25,7 +25,7 @@
       {
         "id": "c883469b04095bb6",
         "type": "tabs",
-        "dimension": 44.65944272445821,
+        "dimension": 50.464396284829725,
         "children": [
           {
             "id": "a66c2ec20288e95b",
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 309.5
   },
   "right": {
     "id": "91a35dab56c33ee5",
@@ -201,20 +201,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "dcd10adbecff173c",
+  "active": "a66c2ec20288e95b",
   "lastOpenFiles": [
+    "ảnh/Pasted image 20251115161016.png",
     "3. List-based damped high utiluty occupancy pattern analysis.md",
-    "{7F703FE4-CF3A-4678-835F-1C514FC6E8C9}.png",
+    "ảnh/Pasted image 20251115160852.png",
+    "ảnh/{720DA710-160F-4617-BF4F-30C3F203EAD1}.png",
+    "ảnh/Pasted image 20251115142316.png",
+    "Chưa đặt tên.md",
+    "ảnh/{173B4AD2-B179-4F06-AD64-FF9CD762EBC1}.png",
     "1-s2.0-S0950705125014923-main.pdf",
-    "{B4D55CFF-55D3-4CDD-999F-0398422624B3}.png",
-    "ảnh/{0B9FD072-8128-4DD4-B1D3-0939A62EEA60}.png",
-    "ảnh/{6EFAECC9-E2D0-4D18-A8CB-165C983A2C96}.png",
-    "ảnh/{4AF29A6F-71AE-464C-9E84-368E1D7EA3F3}.png",
-    "ảnh/{CEDAE0B3-7423-4A42-A47E-D5967D99CA89}.png",
-    "ảnh/{FBC574CC-C811-4D77-9579-2CF43FEFD732}.png",
-    "ảnh/{5B9A73BE-697E-4E8F-9C7C-A3A7B3FDA642}.png",
-    "ảnh/{50D884A9-94AF-4ED9-8268-4560E973F161}.png",
-    "ảnh/{D268535B-29E1-4F05-8E66-DBCF233F86FC}.png",
+    "ảnh/{7B51C083-1B73-4E69-A76C-3F81F894A875}.png",
+    "ảnh/{368D570B-57EF-4971-8382-FBB125A5F372}.png",
+    "ảnh/{1C423E2C-EE8E-450C-9C04-E944B4BAC710}.png",
+    "ảnh/{0A635BAE-6135-46F2-9850-8DBF94A58598}.png",
+    "ảnh/{51CD9598-BFCB-40BB-BB0D-6046DB592344}.png",
     "khái niệm/Chiếm dụng.md",
     "khái niệm",
     "3.4.md",

@@ -1,0 +1,1 @@
+<img src="ảnh/" alt="Mô tả">
