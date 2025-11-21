@@ -8,21 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcd10adbecff173c",
+            "id": "a66c2ec20288e95b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3. List-based damped high utiluty occupancy pattern analysis.md",
-                "mode": "source",
-                "source": false
+                "file": "1-s2.0-S0950705125014923-main.pdf"
               },
-              "icon": "lucide-file",
-              "title": "3. List-based damped high utiluty occupancy pattern analysis"
+              "icon": "lucide-file-text",
+              "title": "1-s2.0-S0950705125014923-main"
             }
           },
           {
-            "id": "a66c2ec20288e95b",
+            "id": "dcd10adbecff173c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,30 +179,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "dcd10adbecff173c",
+  "active": "a66c2ec20288e95b",
   "lastOpenFiles": [
-    "Chưa đặt tên.md",
     "3. List-based damped high utiluty occupancy pattern analysis.md",
-    "{.md",
+    "1. Introduction.md",
+    "2. relate word.md",
     "1-s2.0-S0950705125014923-main.pdf",
+    "ảnh/translated_image_vi.png",
     "ảnh/Pasted image 20251115161016.png",
     "ảnh/Pasted image 20251115160852.png",
-    "ảnh/{720DA710-160F-4617-BF4F-30C3F203EAD1}.png",
     "ảnh/Pasted image 20251115142316.png",
-    "ảnh/{173B4AD2-B179-4F06-AD64-FF9CD762EBC1}.png",
-    "ảnh/{7B51C083-1B73-4E69-A76C-3F81F894A875}.png",
-    "ảnh/{368D570B-57EF-4971-8382-FBB125A5F372}.png",
-    "ảnh/{1C423E2C-EE8E-450C-9C04-E944B4BAC710}.png",
-    "ảnh/{0A635BAE-6135-46F2-9850-8DBF94A58598}.png",
-    "ảnh/{51CD9598-BFCB-40BB-BB0D-6046DB592344}.png",
+    "ảnh/{FBCC367D-6D41-482B-9B73-90D670E0FB46}.png",
+    "ảnh/{FBC574CC-C811-4D77-9579-2CF43FEFD732}.png",
+    "ảnh/{F7A4C215-68B1-4F41-A894-68FA0D3D86C7}.png",
+    "ảnh/{E18AB294-5EBB-4423-8C83-363FF38850BE}.png",
+    "ảnh/{D268535B-29E1-4F05-8E66-DBCF233F86FC}.png",
+    "ảnh/{D579C2C5-DDD8-4ED9-8D50-F060556D2386}.png",
+    "Chưa đặt tên.md",
+    "{.md",
     "khái niệm/Chiếm dụng.md",
     "khái niệm",
     "3.4.md",
     "3.1. Preliminaries.md",
     "3.2. Tổng Quan Quy Trình.md",
-    "1. Introduction.md",
     "3.3. Constructing global data structure with original data.md",
-    "2. relate word.md",
     "ảnh"
   ]
 }
