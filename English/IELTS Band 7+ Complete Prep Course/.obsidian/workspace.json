@@ -34,9 +34,51 @@
               "icon": "lucide-file",
               "title": "2-6. Notification.. IELTS Exam 2025 Format Update"
             }
+          },
+          {
+            "id": "d5210ec6e6841986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "từ vựng.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "từ vựng"
+            }
+          },
+          {
+            "id": "8fac55cb63be9c8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Danh từ (Noun) trong Tiếng Anh.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Danh từ (Noun) trong Tiếng Anh"
+            }
+          },
+          {
+            "id": "e4d065cbb7788c14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Danh từ (Noun) trong Tiếng Anh.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Danh từ (Noun) trong Tiếng Anh"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -181,10 +223,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "d8b446bc974eec8f",
+  "active": "e4d065cbb7788c14",
   "lastOpenFiles": [
+    "Chưa đặt tên 1.md",
+    "2. Danh từ (Noun) trong Tiếng Anh.md",
+    "Grammar Khan Academy/1. Giới thiệu về Ngữ pháp (Grammar) trên Khan Academy.md",
+    "Grammar Khan Academy",
     "từ vựng.md",
-    "2-6. Notification.. IELTS Exam 2025 Format Update.md",
+    "Section 3. Grammar and Vocabulary Diagnostic Tests/3-8. Grammar Diagnostic Test.md",
+    "Grammar.Diagnostic.Test.pdf",
+    "Section 3. Grammar and Vocabulary Diagnostic Tests",
+    "Section 2. IELTS Exam Basic Information/2-6. Notification.. IELTS Exam 2025 Format Update.md",
     "Section 2. IELTS Exam Basic Information/2-5. IELTS Exam Basic Information.md",
     "1-1. Why Take this UDEMY Bestseller IELTS Course.md",
     "1-2. Course Description and Introduction.md"
