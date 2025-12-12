@@ -1,22 +1,22 @@
 {
   "main": {
-    "id": "eecf42fe3a2a1774",
+    "id": "09f5a21b2b34c8cb",
     "type": "split",
     "children": [
       {
-        "id": "3fe76294e52d53b6",
+        "id": "36db2dd657be2af0",
         "type": "tabs",
         "children": [
           {
-            "id": "614e54fe01749b4a",
+            "id": "2f9e2a568e65c398",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "release-notes",
               "state": {
-                "file": "bài báo 2/1-s2.0-S0957417425040059-main.pdf"
+                "currentVersion": "1.10.6"
               },
-              "icon": "lucide-file-text",
-              "title": "1-s2.0-S0957417425040059-main"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           }
         ]
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2885b63deb79a9d4",
+    "id": "13b4d5d26c5e32ad",
     "type": "split",
     "children": [
       {
-        "id": "896767fef498437f",
+        "id": "ed4bbb8d88208921",
         "type": "tabs",
         "children": [
           {
-            "id": "c687330bbe99b929",
+            "id": "43a3824a98263539",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +46,7 @@
             }
           },
           {
-            "id": "27bbb2134382db15",
+            "id": "b803a9cf943b71c5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,40 +59,39 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Tìm kiếm"
+              "title": "Search"
             }
           },
           {
-            "id": "15a67239e8df2770",
+            "id": "89a913a1ff1b8a6f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Đánh dấu"
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "91a35dab56c33ee5",
+    "id": "00e1246a31ca370d",
     "type": "split",
     "children": [
       {
-        "id": "c5b3c2a1cb05b349",
+        "id": "f6f5341d09654de3",
         "type": "tabs",
         "children": [
           {
-            "id": "7e9fc3da446b608c",
+            "id": "b098cb42daa31e2c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,11 +101,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 1. Introduction"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "dd5afa991e795c5f",
+            "id": "04000f9aebc9a119",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -115,11 +114,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "80681cf866eff1e8",
+            "id": "927a0b219d461efe",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,7 +133,21 @@
             }
           },
           {
-            "id": "6ef94e008adcb234",
+            "id": "d10f475e85b1c6a5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0f52470c68dbb1ff",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -144,7 +157,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương"
+              "title": "Outline"
             }
           }
         ]
@@ -165,36 +178,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "c687330bbe99b929",
+  "active": "43a3824a98263539",
   "lastOpenFiles": [
-    "bài báo 2/3. Preliminaries and problem statement.md",
-    "bài báo 2/1-s2.0-S0957417425040059-main.pdf",
-    "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
-    "bài báo 2/4. Data structure and key strategies.md",
-    "bài báo 2/5. Proposed algorithm(5.1. HAEIM_Stream algorithm).md",
-    "ảnh/{6B30F04C-710A-474F-BCAA-0FC7671440E3}.png",
-    "ảnh/{356E8450-A5CF-42BD-9061-91039B3F6471}.png",
-    "ảnh/{48A1D467-7B2C-45B2-9399-3DAFC022362A}.png",
-    "ảnh/{1F0A28D7-BCB4-47F6-B5A1-BF961C7059B3}.png",
-    "ảnh/{172BD70D-AFCF-42D9-9C6E-ED70CD630462}.png",
-    "ảnh/{BD8AFB01-2C10-4552-A1DF-3CFCCB03B91F}.png",
-    "{D60E9D94-55C9-4A26-B87E-B04AAC004420}.png",
-    "ảnh/{ECD0BAD3-45DE-4517-B15A-FA04CB44FBBB}.png",
-    "ảnh/{10BD0CAE-37D9-4BF6-AE2E-BDE6A3191675}.png",
-    "ảnh/{7980F703-58F2-4EFC-954B-539719FAEB3B}.png",
-    "bài báo 1/3. List-based damped high utiluty occupancy pattern analysis.md",
-    "bài báo 1/1. Introduction.md",
-    "bài báo 1/2. relate word.md",
-    "bài báo 2/1-s2.0-S0957417425040059-main-2.pdf",
-    "bài báo 2",
-    "bài báo 1",
-    "{.md",
-    "khái niệm/Chiếm dụng.md",
-    "khái niệm",
-    "3.4.md",
-    "3.1. Preliminaries.md",
-    "3.2. Tổng Quan Quy Trình.md",
-    "3.3. Constructing global data structure with original data.md",
-    "ảnh"
+    "Machine Learning A-Z. AI, Python & R + ChatGPT Prize 2025/Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with Python & Scikit-learn in 5 mins.md",
+    "Machine Learning A-Z. AI, Python & R + ChatGPT Prize 2025",
+    "Chưa đặt tên.md"
   ]
 }
