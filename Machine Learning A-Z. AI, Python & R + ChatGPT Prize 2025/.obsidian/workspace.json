@@ -8,133 +8,105 @@
         "type": "tabs",
         "children": [
           {
-            "id": "906023afa797cc25",
+            "id": "cf664f5417348348",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with Python & Scikit-learn in 5 mins.md",
+                "file": "Section 3. Data Preprocessing in Python/3-20. Step 2 - Handling Categorical Data. One-Hot Encoding with ColumnTra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-1. Get Excited about ML. Predict Car Purchases with Python & Scikit-learn in 5 mins"
+              "title": "3-20. Step 2 - Handling Categorical Data. One-Hot Encoding with ColumnTra"
             }
           },
           {
-            "id": "ad2092351444e223",
+            "id": "e7ccb4f3f894aa37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-2. Get all the Datasets, Codes and Slides here.md",
+                "file": "Section 3. Data Preprocessing in Python/3-21. Step 3 - Preprocessing Categorical Data. One-Hot and Label En.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-2. Get all the Datasets, Codes and Slides here"
+              "title": "3-21. Step 3 - Preprocessing Categorical Data. One-Hot and Label En"
             }
           },
           {
-            "id": "32cdd63e54b01e54",
+            "id": "4e00d3474340b7da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-3. Recommended Workshops before we dive in!.md",
+                "file": "Section 3. Data Preprocessing in Python/3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-3. Recommended Workshops before we dive in!"
+              "title": "3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms"
             }
           },
           {
-            "id": "35c4c9ab027f197d",
+            "id": "32788043cffddb60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-4. How to Use Google Colab & Machine Learning Course Folder.md",
+                "file": "Section 3. Data Preprocessing in Python/3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-4. How to Use Google Colab & Machine Learning Course Folder"
+              "title": "3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms"
             }
           },
           {
-            "id": "fc406117fe9dbc2c",
+            "id": "91a2c6f4d87f67a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2. Part 1. Data Preprocessing/2-7. Machine Learning Workflow. Importing, Modeling, and Evaluating Your ML Model.md",
+                "file": "Section 3. Data Preprocessing in Python/3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-7. Machine Learning Workflow. Importing, Modeling, and Evaluating Your ML Model"
+              "title": "3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets"
             }
           },
           {
-            "id": "33081c8eabd1f227",
+            "id": "8f681ed364a3d018",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2. Part 1. Data Preprocessing/2-8. Data Preprocessing. Importance of Training-Test Split in ML Model Evaluation.md",
+                "file": "3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-8. Data Preprocessing. Importance of Training-Test Split in ML Model Evaluation"
+              "title": "3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models"
             }
           },
           {
-            "id": "001bd5db493ccdb5",
+            "id": "df4fe42ab0160e5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2. Part 1. Data Preprocessing/2-8. Data Preprocessing. Importance of Training-Test Split in ML Model Evaluation.md",
+                "file": "3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-8. Data Preprocessing. Importance of Training-Test Split in ML Model Evaluation"
-            }
-          },
-          {
-            "id": "d85b7e5ce686aea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-10. Step 1 - Data Preprocessing in Python. Preparing Your Dataset for ML Models.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-10. Step 1 - Data Preprocessing in Python. Preparing Your Dataset for ML Models"
-            }
-          },
-          {
-            "id": "b67527b7ec33e3f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 3. Data Preprocessing in Python/3-11. Step 2 - Data Preprocessing Techniques. From Raw Data to ML-Ready Datasets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-11. Step 2 - Data Preprocessing Techniques. From Raw Data to ML-Ready Datasets"
+              "title": "3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -191,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 313.5
   },
   "right": {
     "id": "8473b2f42ce534d3",
@@ -293,8 +265,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "d61ecf28fec773f7",
+  "active": "df4fe42ab0160e5b",
   "lastOpenFiles": [
+    "3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models.md",
+    "3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr.md",
+    "Section 3. Data Preprocessing in Python/Coding Exercise 3. Encoding Categorical Data for Machine Learning.md",
+    "Section 3. Data Preprocessing in Python/3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets.md",
+    "Chưa đặt tên",
+    "Section 3. Data Preprocessing in Python/3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms.md",
+    "Section 3. Data Preprocessing in Python/3-21. Step 3 - Preprocessing Categorical Data. One-Hot and Label En.md",
+    "Section 3. Data Preprocessing in Python/3-20. Step 2 - Handling Categorical Data. One-Hot Encoding with ColumnTra.md",
+    "Section 3. Data Preprocessing in Python/3-13. Step 1 - Machine Learning Basics. Importing Datasets Using Pandas read_csv().md",
+    "Section 3. Data Preprocessing in Python/3-12. Machine Learning Toolkit. Importing NumPy, Matplotlib, and Pandas Libraries.md",
+    "Section 3. Data Preprocessing in Python/3-11. Step 2 - Data Preprocessing Techniques. From Raw Data to ML-Ready Datasets.md",
+    "Section 3. Data Preprocessing in Python/3-10. Step 1 - Data Preprocessing in Python. Preparing Your Dataset for ML Models.md",
+    "Section 3. Data Preprocessing in Python/Coding Exercise 2. Coding Exercise 2. Handling Missing D.md",
+    "Section 3. Data Preprocessing in Python/Coding Exercise 1. Importing and Preprocessing a Dataset for Machine Learning.md",
+    "Section 3. Data Preprocessing in Python/3-17. Step 1 - Using Scikit-Learn to Replace Missing Values in Machine Learning.md",
+    "Section 3. Data Preprocessing in Python/3-18. Step 2 - Imputing Missing Data in Python. SimpleImput.md",
+    "Section 3. Data Preprocessing in Python/3-16. For Python learners, summary of Object-oriented programmi.md",
+    "Section 3. Data Preprocessing in Python/3-15. Step 3 - Preprocessing Data. Building X and Y Vector.md",
+    "Section 3. Data Preprocessing in Python/3-14. Step 2 - Using Pandas iloc for Feature Selection in.md",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/Color Blind Friendly Images/training_set.png",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/Color Blind Friendly Images/test_set.png",
     "MACHIN~1/PART3-~1/SE7C2A~1/Python/Color Blind Friendly Images/test_set.png",
@@ -311,22 +302,16 @@
     "MACHIN~1/PART3-~1/SECTIO~1/Python/logistic_regression.ipynb",
     "MACHIN~1/PART3-~1/SECTIO~1/Python/logistic_regression.py",
     "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 14 - Logistic Regression/Python/Color Blind Friendly Images/test_set.png",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 20 - Random Forest Classification/R/Color Blind Friendly Images/random_forest_classification_training_set.png",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 20 - Random Forest Classification/R/Color Blind Friendly Images/random_forest_classification_test_set.png",
-    "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 20 - Random Forest Classification/Python/Color Blind Friendly Images/random_forest_classification_training_set.png",
     "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with.md",
-    "Section 3. Data Preprocessing in Python/3-10. Step 1 - Data Preprocessing in Python. Preparing Your Dataset for ML Models.md",
-    "Section 3. Data Preprocessing in Python/3-11. Step 2 - Data Preprocessing Techniques. From Raw Data to ML-Ready Datasets.md",
     "Section 2. Part 1. Data Preprocessing/2-8. Data Preprocessing. Importance of Training-Test Split in ML Model Evaluation.md",
     "Section 2. Part 1. Data Preprocessing/2-9. Feature Scaling in Machine Learning. Normalization vs Standardization Explained.md",
     "Section 2. Part 1. Data Preprocessing/2-7. Machine Learning Workflow. Importing, Modeling, and Evaluating Your ML Model.md",
     "Section 2. Part 1. Data Preprocessing/2-6. Welcome to Part 1 - Data Preprocessing.md",
     "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-5. Prizes $$ for Learning.md",
     "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-4. How to Use Google Colab & Machine Learning Course Folder.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-2. Get all the Datasets, Codes and Slides here.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-3. Recommended Workshops before we dive in!.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with Python & Scikit-learn in 5 mins.md"
+    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-2. Get all the Datasets, Codes and Slides here.md"
   ]
 }
