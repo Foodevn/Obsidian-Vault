@@ -4,109 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "2c188c0f5140598a",
+        "id": "8580471cd1de1f98",
         "type": "tabs",
         "children": [
           {
-            "id": "cf664f5417348348",
+            "id": "b09ba3e15d08355a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 3. Data Preprocessing in Python/3-20. Step 2 - Handling Categorical Data. One-Hot Encoding with ColumnTra.md",
+                "file": "Section 7. Multiple Linear Regression/7-58. Multiple Linear Regression. Independent Variables & Prediction Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-20. Step 2 - Handling Categorical Data. One-Hot Encoding with ColumnTra"
+              "title": "7-58. Multiple Linear Regression. Independent Variables & Prediction Models"
             }
           },
           {
-            "id": "e7ccb4f3f894aa37",
+            "id": "a43ead44a3174692",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 3. Data Preprocessing in Python/3-21. Step 3 - Preprocessing Categorical Data. One-Hot and Label En.md",
+                "file": "Section 7. Multiple Linear Regression/7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-21. Step 3 - Preprocessing Categorical Data. One-Hot and Label En"
+              "title": "7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More"
             }
           },
           {
-            "id": "4e00d3474340b7da",
+            "id": "737e6e5042a771d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 3. Data Preprocessing in Python/3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms.md",
+                "file": "7-60. How to Handle Categorical Variables in Linear Regression Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms"
+              "title": "7-60. How to Handle Categorical Variables in Linear Regression Models"
             }
           },
           {
-            "id": "32788043cffddb60",
+            "id": "ec418394660aa020",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 3. Data Preprocessing in Python/3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms.md",
+                "file": "7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms"
-            }
-          },
-          {
-            "id": "91a2c6f4d87f67a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 3. Data Preprocessing in Python/3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets"
-            }
-          },
-          {
-            "id": "8f681ed364a3d018",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models"
-            }
-          },
-          {
-            "id": "df4fe42ab0160e5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr"
+              "title": "7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,27 +223,41 @@
       "bases:Create new base": false
     }
   },
-  "active": "df4fe42ab0160e5b",
+  "active": "ec418394660aa020",
   "lastOpenFiles": [
-    "3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models.md",
-    "3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr.md",
-    "Section 3. Data Preprocessing in Python/Coding Exercise 3. Encoding Categorical Data for Machine Learning.md",
-    "Section 3. Data Preprocessing in Python/3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets.md",
-    "Chưa đặt tên",
+    "7-60. How to Handle Categorical Variables in Linear Regression Models.md",
+    "7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap.md",
+    "Section 7. Multiple Linear Regression/7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More.md",
+    "Section 7. Multiple Linear Regression/Pasted image 20251215151944.png",
+    "Section 7. Multiple Linear Regression/7-58. Multiple Linear Regression. Independent Variables & Prediction Models.md",
+    "Section 7. Multiple Linear Regression/7-57. Startup Success Prediction. Regression Model for VC Fund Decision-Making.md",
+    "Section 6. Simple Linear Regression/6-43. Step 1a - Mastering Simple Linear Regression. Key Concepts and Implementation.md",
+    "Section 6. Simple Linear Regression/6-50. Simple Linear Regression in Python - Additional Lecture.md",
+    "Section 6. Simple Linear Regression/6-49. Step 4b - Evaluating Linear Regression Model Performance on Test Data.md",
+    "Section 6. Simple Linear Regression/6-48. Step 4a - Linear Regression. Plotting Real vs Predicted Salaries Visualization.md",
+    "Section 6. Simple Linear Regression/6-47. Step 3 - Using Scikit-Learn's Predict Method for Linear Regression in Python.md",
+    "Section 6. Simple Linear Regression/6-44. Step 1b. Data Preprocessing for Linear Regression. Import & Split Data in Python.md",
+    "Section 7. Multiple Linear Regression",
+    "Section 5. Part 2. Regression/5-40. Welcome to Part 2 - Regression.md",
+    "Section 6. Simple Linear Regression/6-41. Simple Linear Regression. Understanding the Equation and.md",
+    "Section 6. Simple Linear Regression/6-42. How to Find the Best Fit Line. Understanding Ordinary Le.md",
+    "Section 6. Simple Linear Regression/6-46. Step 2b - Machine Learning Basics. Training a Linear Regression Model in Python.md",
+    "Section 6. Simple Linear Regression/6-45. Step 2a - Building a Simple Linear Regression Model with Scikit-learn in Python.md",
+    "Section 6. Simple Linear Regression",
+    "Section 5. Part 2. Regression",
     "Section 3. Data Preprocessing in Python/3-19. Step 1 - One-Hot Encoding. Transforming Categorical Features for ML Algorithms.md",
-    "Section 3. Data Preprocessing in Python/3-21. Step 3 - Preprocessing Categorical Data. One-Hot and Label En.md",
-    "Section 3. Data Preprocessing in Python/3-20. Step 2 - Handling Categorical Data. One-Hot Encoding with ColumnTra.md",
-    "Section 3. Data Preprocessing in Python/3-13. Step 1 - Machine Learning Basics. Importing Datasets Using Pandas read_csv().md",
-    "Section 3. Data Preprocessing in Python/3-12. Machine Learning Toolkit. Importing NumPy, Matplotlib, and Pandas Libraries.md",
-    "Section 3. Data Preprocessing in Python/3-11. Step 2 - Data Preprocessing Techniques. From Raw Data to ML-Ready Datasets.md",
-    "Section 3. Data Preprocessing in Python/3-10. Step 1 - Data Preprocessing in Python. Preparing Your Dataset for ML Models.md",
-    "Section 3. Data Preprocessing in Python/Coding Exercise 2. Coding Exercise 2. Handling Missing D.md",
-    "Section 3. Data Preprocessing in Python/Coding Exercise 1. Importing and Preprocessing a Dataset for Machine Learning.md",
-    "Section 3. Data Preprocessing in Python/3-17. Step 1 - Using Scikit-Learn to Replace Missing Values in Machine Learning.md",
-    "Section 3. Data Preprocessing in Python/3-18. Step 2 - Imputing Missing Data in Python. SimpleImput.md",
-    "Section 3. Data Preprocessing in Python/3-16. For Python learners, summary of Object-oriented programmi.md",
-    "Section 3. Data Preprocessing in Python/3-15. Step 3 - Preprocessing Data. Building X and Y Vector.md",
-    "Section 3. Data Preprocessing in Python/3-14. Step 2 - Using Pandas iloc for Feature Selection in.md",
+    "Section 3. Data Preprocessing in Python/3-22. Step 1 - How to Prepare Data for Machine Learning. Training vs Test Sets.md",
+    "Section 3. Data Preprocessing in Python/3-23. Step 2 - Preparing Data. Creating Training and Test Sets in Python for ML Models.md",
+    "Section 3. Data Preprocessing in Python/3-24. Step 3 - Splitting Data into Training and Test Sets. Best Pr.md",
+    "Section 3. Data Preprocessing in Python/Coding Exercise 4. Dataset Splitting and Feature Scaling.md",
+    "Section 3. Data Preprocessing in Python/3-25. Step 1 - Feature Scaling in ML. Why It's Crucial for Data Preprocessing.md",
+    "Section 3. Data Preprocessing in Python/3-26. Step 2 - How to Scale Numeric Features in Python for.md",
+    "Section 3. Data Preprocessing in Python/3-27. Step 3 - Implementing Feature Scaling. Fit and Tra.md",
+    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with.md",
+    "Section 3. Data Preprocessing in Python/Coding exercise 5. Feature scaling for Machine Learning.md",
+    "image/Pasted image 20251213143546.png",
+    "image/Pasted image 20251213143602.png",
+    "image",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/Color Blind Friendly Images/training_set.png",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/Color Blind Friendly Images/test_set.png",
     "MACHIN~1/PART3-~1/SE7C2A~1/Python/Color Blind Friendly Images/test_set.png",
@@ -298,20 +270,6 @@
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 14 - Logistic Regression/Python/Color Blind Friendly Images/training_set.png",
     "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images/training_set.png",
     "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images/test_set.png",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python/Social_Network_Ads.csv",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python/logistic_regression.ipynb",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python/logistic_regression.py",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images",
-    "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 14 - Logistic Regression/Python/Color Blind Friendly Images/test_set.png",
-    "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 20 - Random Forest Classification/R/Color Blind Friendly Images/random_forest_classification_training_set.png",
-    "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 20 - Random Forest Classification/R/Color Blind Friendly Images/random_forest_classification_test_set.png",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with.md",
-    "Section 2. Part 1. Data Preprocessing/2-8. Data Preprocessing. Importance of Training-Test Split in ML Model Evaluation.md",
-    "Section 2. Part 1. Data Preprocessing/2-9. Feature Scaling in Machine Learning. Normalization vs Standardization Explained.md",
-    "Section 2. Part 1. Data Preprocessing/2-7. Machine Learning Workflow. Importing, Modeling, and Evaluating Your ML Model.md",
-    "Section 2. Part 1. Data Preprocessing/2-6. Welcome to Part 1 - Data Preprocessing.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-5. Prizes $$ for Learning.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-4. How to Use Google Colab & Machine Learning Course Folder.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-2. Get all the Datasets, Codes and Slides here.md"
+    "MACHIN~1/PART3-~1/SECTIO~1/Python/Social_Network_Ads.csv"
   ]
 }

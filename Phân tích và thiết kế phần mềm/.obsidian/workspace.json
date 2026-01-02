@@ -97,16 +97,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Yêu cầu.md",
+                "file": "6. Nguyên tắc thiết kế.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Yêu cầu"
+              "title": "6. Nguyên tắc thiết kế"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -254,14 +254,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "81cd279637c454f7",
+  "active": "008f9969831fd1bf",
   "lastOpenFiles": [
+    "6. Nguyên tắc thiết kế.md",
+    "4. Tổng quan về thiết kế.md",
+    "3. Yêu cầu.md",
     "2. Các mô hình phát triển phần mềm.md",
     "1. Tổng quan.md",
-    "3. Yêu cầu.md",
     "Chưa đặt tên.md",
-    "4. Tổng quan về thiết kế.md",
-    "6. Nguyên tắc thiết kế.md",
     "5. Kiến trúc phần mềm.md"
   ]
 }
