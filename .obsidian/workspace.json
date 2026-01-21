@@ -11,12 +11,12 @@
             "id": "2f9e2a568e65c398",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "pdf",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "data mining/bài báo 1/1-s2.0-S0950705125014923-main.pdf"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file-text",
+              "title": "1-s2.0-S0950705125014923-main"
             }
           }
         ]
@@ -178,7 +178,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "43a3824a98263539",
+  "active": "2f9e2a568e65c398",
   "lastOpenFiles": [
     "Machine Learning A-Z. AI, Python & R + ChatGPT Prize 2025/Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with Python & Scikit-learn in 5 mins.md",
     "Machine Learning A-Z. AI, Python & R + ChatGPT Prize 2025",

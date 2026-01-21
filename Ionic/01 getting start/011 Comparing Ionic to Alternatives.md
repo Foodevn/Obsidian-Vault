@@ -1,0 +1,3 @@
+You can build mobile apps with cross-platform technologies (like HTML, JS, CSS) with other technologies, too. For example, React Native and Flutter would be popular alternatives.
+
+Here's my detailed comparison of all these popular approaches: [https://academind.com/tutorials/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa](https://academind.com/tutorials/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa)

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "614e54fe01749b4a",
+            "id": "e9d23f8c293269f8",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -17,50 +17,6 @@
               },
               "icon": "lucide-file-text",
               "title": "1-s2.0-S0950705125014923-main"
-            }
-          },
-          {
-            "id": "22918b5bb3c233e1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "ảnh/Pasted image 20260104101543.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260104101543"
-            }
-          }
-        ]
-      },
-      {
-        "id": "894a943d41005ca0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "848e8c9d0865e1b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bài báo 1/3. List-based damped high utiluty occupancy pattern analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. List-based damped high utiluty occupancy pattern analysis"
-            }
-          },
-          {
-            "id": "e9d23f8c293269f8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "ảnh/Pasted image 20260102152430.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260102152430"
             }
           }
         ]
@@ -209,22 +165,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "848e8c9d0865e1b5",
+  "active": "e9d23f8c293269f8",
   "lastOpenFiles": [
-    "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
     "bài báo 1/3. List-based damped high utiluty occupancy pattern analysis.md",
-    "ảnh/Pasted image 20260104101543.png",
+    "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
     "ảnh/Pasted image 20260102152430.png",
+    "bài báo 1/1. Introduction.md",
+    "ảnh/Pasted image 20260105081658.png",
+    "ảnh/Pasted image 20260104101543.png",
+    "ảnh/{1C423E2C-EE8E-450C-9C04-E944B4BAC710}.png",
     "ảnh/Pasted image 20251115142316.png",
     "ảnh/translated_image_vi.png",
     "ảnh/Pasted image 20251115160852.png",
     "ảnh/Pasted image 20251115161016.png",
     "ảnh/Pasted image 20260103144845.png",
     "ảnh/Pasted image 20260103160700.png",
-    "ảnh/Pasted image 20260103144901.png",
-    "ảnh/Pasted image 20260103160708.png",
     "khái niệm/Chiếm dụng.md",
-    "bài báo 1/1. Introduction.md",
     "bài báo 1/2. relate word.md",
     "bài báo 2/5. Proposed algorithm(5.1. HAEIM_Stream algorithm).md",
     "bài báo 2/1-s2.0-S0957417425040059-main.pdf",
