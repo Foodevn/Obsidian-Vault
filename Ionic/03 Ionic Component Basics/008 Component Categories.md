@@ -1,7 +1,3 @@
-Chào bạn, tôi là **tóm tắt**. Để giải quyết vấn đề giao diện bị giãn quá rộng trên màn hình máy tính, chúng ta cần hiểu về cách phân loại các thành phần trong Ionic và sử dụng hệ thống Lưới (Grid).
-
----
-
 ## Phân loại các thành phần Ionic (Component Categories)
 
 Dù không phải là thuật ngữ chính thức trong tài liệu, việc chia các thành phần thành 3 nhóm sau đây sẽ giúp bạn tư duy thiết kế ứng dụng tốt hơn:
@@ -9,29 +5,21 @@ Dù không phải là thuật ngữ chính thức trong tài liệu, việc chia
 ### 1. Thành phần Hiển thị (Output Components)
 
 Dùng để trình bày dữ liệu cho người dùng.
-
 - **Ví dụ**: `ion-img`, `ion-badge`, `ion-label`, `ion-title`, `ion-toolbar`.
-    
 - **Đặc điểm**: Tập trung vào việc đưa thông tin lên màn hình.
-    
 
 ### 2. Thành phần Bố cục (Layout Components)
 
 Dùng để cấu trúc, sắp xếp và nhóm các thành phần khác lại với nhau.
-
 - **Ví dụ**: `ion-grid`, `ion-list`, `ion-tabs`, `ion-card`.
-    
 - **Đặc điểm**: Có thể không hiển thị rõ ràng nhưng giúp kiểm soát vị trí và độ rộng của nội dung.
-    
 
 ### 3. Thành phần Nhập liệu (Input Components)
 
 Dùng để người dùng tương tác và nhập dữ liệu.
-
 - **Ví dụ**: `ion-button`, `ion-input`, `ion-textarea`.
-    
 - **Đặc điểm**: Cho phép người dùng gõ, nhấn hoặc chọn.
-    
+
 
 ---
 
@@ -42,24 +30,16 @@ Khi một thành phần (như `ion-card`) kéo dài hết chiều ngang màn hì
 ### Hệ thống Lưới (The Grid System)
 
 Hệ thống này dựa trên Flexbox và chia màn hình thành 12 cột ảo. Cấu trúc cơ bản bao gồm:
-
 - **`<ion-grid>`**: Thẻ bao ngoài cùng của hệ thống lưới.
-    
 - **`<ion-row>`**: Một hàng nằm trong lưới.
-    
 - **`<ion-col>`**: Các cột nằm trong hàng. Bạn có thể quy định một cột chiếm bao nhiêu phần của 12 cột.
-    
 
 ### Tại sao dùng ion-grid ở đây?
 
 Bằng cách bao bọc `ion-card` vào trong một hệ thống lưới, chúng ta có thể:
-
 - Giới hạn chiều rộng của Card trên màn hình lớn.
-    
 - Căn giữa Card để tạo sự cân đối.
-    
 - Tự động giãn ra 100% khi xem trên điện thoại.
-    
 
 ---
 
@@ -77,5 +57,3 @@ Bằng cách bao bọc `ion-card` vào trong một hệ thống lưới, chúng 
 > [!IMPORTANT] Tư duy thiết kế
 > 
 > Khi một giao diện trông "sai sai", hãy kiểm tra xem bạn đã sử dụng đúng các Layout Components để kiểm soát không gian chưa.
-
-**Bước tiếp theo, bạn có muốn tôi viết mã mẫu sử dụng `ion-grid` để "thuần hóa" chiếc Card nhập liệu, giúp nó trông đẹp mắt trên cả máy tính lẫn di động không?**
