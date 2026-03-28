@@ -1,54 +1,84 @@
 {
   "main": {
-    "id": "4e07b179d86e1c8d",
+    "id": "bcdd52c490b906fb",
     "type": "split",
     "children": [
       {
-        "id": "6dc3209693f0363c",
+        "id": "55bddbc4c9693fcb",
         "type": "tabs",
         "children": [
           {
-            "id": "00ebadaf9386d553",
+            "id": "5f5b2bd8d05e3bcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Ionic Component Basics/010 Adding Icons  Using Slots.md",
+                "file": "Section 3. Big O/3-52. Exercise. Twitter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010 Adding Icons  Using Slots"
+              "title": "3-52. Exercise. Twitter"
             }
           },
           {
-            "id": "1bbbd54496b2d015",
+            "id": "e56e63c1bd639ada",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "Section 3. Big O/3-53. Optional. Javascript Loops.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "icon": "lucide-file",
+              "title": "3-53. Optional. Javascript Loops"
+            }
+          },
+          {
+            "id": "cdeece71ef381ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section 3. Big O/3-48. O(n!).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-48. O(n!)"
+            }
+          },
+          {
+            "id": "c064a0c2390a39cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chưa đặt tên.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chưa đặt tên"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e086ac2868be0554",
+    "id": "28e4ad57be8090c5",
     "type": "split",
     "children": [
       {
-        "id": "27ca3b7b503d3b4e",
+        "id": "052e5b613b4e1783",
         "type": "tabs",
         "children": [
           {
-            "id": "c31a5e1f860449bb",
+            "id": "e753f9644cb68533",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +91,7 @@
             }
           },
           {
-            "id": "44243638cdcf2bae",
+            "id": "9e88a318a6bf95fd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +108,7 @@
             }
           },
           {
-            "id": "2a7b934b59a09409",
+            "id": "d771a456a37e9c91",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,23 +121,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316.5
   },
   "right": {
-    "id": "7da4007e2077ef8c",
+    "id": "ce0ac25e5646add1",
     "type": "split",
     "children": [
       {
-        "id": "d9d5fce287833145",
+        "id": "a35553114b2413c8",
         "type": "tabs",
         "children": [
           {
-            "id": "d5fa4199c99a4e70",
+            "id": "bcb43dc90c5efe05",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Overview, installation and creating the project.md",
+                "file": "2-8. Exercise. Resume Walkthrough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,25 +147,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 1 - Overview, installation and creating the project"
+              "title": "Liên kết đến của 2-8. Exercise. Resume Walkthrough"
             }
           },
           {
-            "id": "fa8025f49ee1e6ec",
+            "id": "fc68a935014237ad",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Overview, installation and creating the project.md",
+                "file": "2-8. Exercise. Resume Walkthrough.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 1 - Overview, installation and creating the project"
+              "title": "Liên kết đi ra từ 2-8. Exercise. Resume Walkthrough"
             }
           },
           {
-            "id": "ee3c4143069f535c",
+            "id": "1aeb7a390c82ef2c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,11 +176,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Thẻ"
             }
           },
           {
-            "id": "6da34dd9a907d68b",
+            "id": "641a8567aa2b4d57",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -164,18 +194,18 @@
             }
           },
           {
-            "id": "f11112f45688cfd7",
+            "id": "27abf1d5335935c9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Overview, installation and creating the project.md",
+                "file": "2-8. Exercise. Resume Walkthrough.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 1 - Overview, installation and creating the project"
+              "title": "Đề cương của 2-8. Exercise. Resume Walkthrough"
             }
           }
         ]
@@ -193,42 +223,39 @@
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
       "command-palette:Mở khay lệnh": false,
-      "bases:Create new base": false
+      "bases:Tạo cơ sở mới": false
     }
   },
-  "active": "1bbbd54496b2d015",
+  "active": "c064a0c2390a39cb",
   "lastOpenFiles": [
-    "03 Ionic Component Basics/010 Adding Icons  Using Slots.md",
-    "03 Ionic Component Basics/018 Using Controller Components.md",
-    "03 Ionic Component Basics/017 Use the right Ionic Import.md",
-    "03 Ionic Component Basics/016 Finalizing the Layout.md",
-    "03 Ionic Component Basics/015 Finishing Up the Base JavaScript Logic.md",
-    "03 Ionic Component Basics/014 Creating Ionic Elements Programmatically.md",
-    "03 Ionic Component Basics/013 Validating User Input.md",
-    "03 Ionic Component Basics/012 Using Ionic Elements like Normal HTML Elements.md",
-    "03 Ionic Component Basics/011 Using CSS Utility Attributes.md",
-    "03 Ionic Component Basics/009 Using the Ionic Grid.md",
-    "03 Ionic Component Basics/008 Component Categories.md",
-    "03 Ionic Component Basics/007 More Basic Components.md",
-    "03 Ionic Component Basics/006 Using Basic Ionic Components.md",
-    "03 Ionic Component Basics/005 Where to Learn all about Ionic Components.md",
-    "03 Ionic Component Basics/004 Setting Up a Non-Angular Ionic Project.md",
-    "03 Ionic Component Basics/003 Under the Hood of Ionic Components.md",
-    "03 Ionic Component Basics/002 Core App Building Blocks.md",
-    "03 Ionic Component Basics/001 Module Introduction.md",
-    "02 Angular Refresher/009 The App Component.md",
-    "03 Ionic Component Basics/019 Why Angular.md",
-    "03 Ionic Component Basics/001 Module Introduction.mp4",
-    "03 Ionic Component Basics/001 Module Introduction.srt",
-    "02 Angular Refresher/001 Module Introduction.md",
-    "03 Ionic Component Basics/001 Module Introduction.SRT",
-    "03 Ionic Component Basics",
-    "02 Angular Refresher/008 Understanding the Folder Structure.md",
-    "02 Angular Refresher/007 Installing the IDE.md",
-    "02 Angular Refresher/006 Installing Angular with the CLI.md",
-    "02 Angular Refresher/005 Important Creating an Angular Project with the CLI.md",
-    "02 Angular Refresher/004 Understanding Components.md",
-    "02 Angular Refresher",
-    "01 getting start"
+    "Section 3. Big O/3-48. O(n!).md",
+    "Chưa đặt tên.md",
+    "Section 3. Big O/3-54. Section Summary.md",
+    "Section 3. Big O/3-53. Optional. Javascript Loops.md",
+    "Section 3. Big O/3-52. Exercise. Twitter.md",
+    "Section 3. Big O/3-49. 3 Pillars Of Programming.md",
+    "Section 3. Big O/3-46. Big O Cheat Sheet.md",
+    "Section 3. Big O/3-51. Exercise. Space Complexity.md",
+    "Section 3. Big O/3-50. Space Complexity.md",
+    "Section 3. Big O/3-47. What Does This All Mean..md",
+    "Section 3. Big O/3-42. Big O Rule 2.md",
+    "Section 3. Big O/3-45. Big O Rule 4.md",
+    "Section 3. Big O/3-44. O(n'2).md",
+    "Section 3. Big O/3-43. Big O Rule 3.md",
+    "Section 3. Big O/3-41. Big O Rule 1.md",
+    "Section 3. Big O/3-27. Python, Java, C C++, C sharp, Go, Swift, Kotlin, TypeScript, Scala, Perl, Rust, PHP.md",
+    "Section 3. Big O/3-40. Simplifying Big O.md",
+    "Trường hợp xấu nhất.md",
+    "Section 3. Big O/3-39. Solution. Big O Calculation 2.md",
+    "Section 3. Big O/3-38. Exercise. Big O Calculation 2.md",
+    "Section 3. Big O/3-36. Exercise. Big O Calculation.md",
+    "Section 3. Big O/3-37. Solution. Big O Calculation.md",
+    "Section 3. Big O/3-35. O(1).md",
+    "Section 3. Big O/3-34. O(n).md",
+    "Section 3. Big O/3-33. Big O and Scalability.md",
+    "Section 3. Big O/3-32. What Is Good Code..md",
+    "Section 3. Big O",
+    "Section 2. Getting More Interviews",
+    "Section 1. Introduction"
   ]
 }

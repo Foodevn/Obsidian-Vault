@@ -1,54 +1,82 @@
 {
   "main": {
-    "id": "4e07b179d86e1c8d",
+    "id": "0020efa2c15c26a7",
     "type": "split",
     "children": [
       {
-        "id": "6dc3209693f0363c",
+        "id": "134adffd47a5ae00",
         "type": "tabs",
         "children": [
           {
-            "id": "00ebadaf9386d553",
+            "id": "a73edcec862c9941",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Ionic Component Basics/010 Adding Icons  Using Slots.md",
+                "file": "Section 1. Course Introduction/1.1. Introduction to the Course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010 Adding Icons  Using Slots"
+              "title": "1.1. Introduction to the Course"
             }
           },
           {
-            "id": "1bbbd54496b2d015",
+            "id": "b995107705eef763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.2. Course Help and Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.2. Course Help and Welcome"
+            }
+          },
+          {
+            "id": "69299bbde64fafc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.2. Course Help and Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.2. Course Help and Welcome"
+            }
+          },
+          {
+            "id": "14b4407f33f16c6c",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.11.5"
+                "currentVersion": "1.11.7"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "title": "Release Notes 1.11.7"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e086ac2868be0554",
+    "id": "2d231853d9b1ddf2",
     "type": "split",
     "children": [
       {
-        "id": "27ca3b7b503d3b4e",
+        "id": "973bc9666b7fbf07",
         "type": "tabs",
         "children": [
           {
-            "id": "c31a5e1f860449bb",
+            "id": "c49086f8e91c85ba",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +89,7 @@
             }
           },
           {
-            "id": "44243638cdcf2bae",
+            "id": "3cd8df08d2a68ef6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +106,7 @@
             }
           },
           {
-            "id": "2a7b934b59a09409",
+            "id": "002e848a6167e258",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,20 +122,20 @@
     "width": 300
   },
   "right": {
-    "id": "7da4007e2077ef8c",
+    "id": "492c452df23e2ca0",
     "type": "split",
     "children": [
       {
-        "id": "d9d5fce287833145",
+        "id": "52bbc59d8312f6a7",
         "type": "tabs",
         "children": [
           {
-            "id": "d5fa4199c99a4e70",
+            "id": "5788628e891153b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Overview, installation and creating the project.md",
+                "file": "1.3. Course FAQs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,25 +145,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 1 - Overview, installation and creating the project"
+              "title": "Liên kết đến của 1.3. Course FAQs"
             }
           },
           {
-            "id": "fa8025f49ee1e6ec",
+            "id": "a32ad5385eb82a9f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Overview, installation and creating the project.md",
+                "file": "1.3. Course FAQs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 1 - Overview, installation and creating the project"
+              "title": "Liên kết đi ra từ 1.3. Course FAQs"
             }
           },
           {
-            "id": "ee3c4143069f535c",
+            "id": "c1eedf3581841049",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,7 +178,7 @@
             }
           },
           {
-            "id": "6da34dd9a907d68b",
+            "id": "0557ace360789ca0",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -164,18 +192,18 @@
             }
           },
           {
-            "id": "f11112f45688cfd7",
+            "id": "a35462f27260e874",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Overview, installation and creating the project.md",
+                "file": "1.3. Course FAQs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 1 - Overview, installation and creating the project"
+              "title": "Đề cương của 1.3. Course FAQs"
             }
           }
         ]
@@ -196,39 +224,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "1bbbd54496b2d015",
+  "active": "14b4407f33f16c6c",
   "lastOpenFiles": [
-    "03 Ionic Component Basics/010 Adding Icons  Using Slots.md",
-    "03 Ionic Component Basics/018 Using Controller Components.md",
-    "03 Ionic Component Basics/017 Use the right Ionic Import.md",
-    "03 Ionic Component Basics/016 Finalizing the Layout.md",
-    "03 Ionic Component Basics/015 Finishing Up the Base JavaScript Logic.md",
-    "03 Ionic Component Basics/014 Creating Ionic Elements Programmatically.md",
-    "03 Ionic Component Basics/013 Validating User Input.md",
-    "03 Ionic Component Basics/012 Using Ionic Elements like Normal HTML Elements.md",
-    "03 Ionic Component Basics/011 Using CSS Utility Attributes.md",
-    "03 Ionic Component Basics/009 Using the Ionic Grid.md",
-    "03 Ionic Component Basics/008 Component Categories.md",
-    "03 Ionic Component Basics/007 More Basic Components.md",
-    "03 Ionic Component Basics/006 Using Basic Ionic Components.md",
-    "03 Ionic Component Basics/005 Where to Learn all about Ionic Components.md",
-    "03 Ionic Component Basics/004 Setting Up a Non-Angular Ionic Project.md",
-    "03 Ionic Component Basics/003 Under the Hood of Ionic Components.md",
-    "03 Ionic Component Basics/002 Core App Building Blocks.md",
-    "03 Ionic Component Basics/001 Module Introduction.md",
-    "02 Angular Refresher/009 The App Component.md",
-    "03 Ionic Component Basics/019 Why Angular.md",
-    "03 Ionic Component Basics/001 Module Introduction.mp4",
-    "03 Ionic Component Basics/001 Module Introduction.srt",
-    "02 Angular Refresher/001 Module Introduction.md",
-    "03 Ionic Component Basics/001 Module Introduction.SRT",
-    "03 Ionic Component Basics",
-    "02 Angular Refresher/008 Understanding the Folder Structure.md",
-    "02 Angular Refresher/007 Installing the IDE.md",
-    "02 Angular Refresher/006 Installing Angular with the CLI.md",
-    "02 Angular Refresher/005 Important Creating an Angular Project with the CLI.md",
-    "02 Angular Refresher/004 Understanding Components.md",
-    "02 Angular Refresher",
-    "01 getting start"
+    "1.3. Course FAQs.md",
+    "1.2. Course Help and Welcome.md",
+    "Deep Learning.md",
+    "Section 1. Course Introduction/1.1. Introduction to the Course.md",
+    "Section 1. Course Introduction"
   ]
 }

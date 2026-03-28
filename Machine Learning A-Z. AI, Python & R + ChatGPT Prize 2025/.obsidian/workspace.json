@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b09ba3e15d08355a",
+            "id": "228141ba0cca63d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 7. Multiple Linear Regression/7-58. Multiple Linear Regression. Independent Variables & Prediction Models.md",
+                "file": "Chưa đặt tên.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7-58. Multiple Linear Regression. Independent Variables & Prediction Models"
-            }
-          },
-          {
-            "id": "a43ead44a3174692",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section 7. Multiple Linear Regression/7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More"
-            }
-          },
-          {
-            "id": "737e6e5042a771d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7-60. How to Handle Categorical Variables in Linear Regression Models.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7-60. How to Handle Categorical Variables in Linear Regression Models"
-            }
-          },
-          {
-            "id": "ec418394660aa020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap"
+              "title": "Chưa đặt tên"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 325.5
   },
   "right": {
     "id": "8473b2f42ce534d3",
@@ -214,21 +171,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Tạo cơ sở mới": false,
       "switcher:Mở bộ chuyển đổi nhanh": false,
       "graph:Mở xem biểu đồ": false,
       "canvas:Tạo bảng mới": false,
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
-      "command-palette:Mở khay lệnh": false,
-      "bases:Create new base": false
+      "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "ec418394660aa020",
+  "active": "228141ba0cca63d3",
   "lastOpenFiles": [
-    "7-60. How to Handle Categorical Variables in Linear Regression Models.md",
-    "7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap.md",
-    "Section 7. Multiple Linear Regression/7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More.md",
+    "Chưa đặt tên.md",
+    "23-219. Make sure you have this Model Selection folder ready.md",
+    "Section 23. Classification Model Selection in Python",
+    "Section 7. Multiple Linear Regression/7-60. How to Handle Categorical Variables in Linear Regression Models.md",
     "Section 7. Multiple Linear Regression/Pasted image 20251215151944.png",
+    "Section 7. Multiple Linear Regression/7-61. Multicollinearity in Regression. Understanding the Dummy Variable Trap.md",
+    "Section 7. Multiple Linear Regression/7-59. Understanding Linear Regression Assumptions. Linearity, Homoscedasticity & More.md",
     "Section 7. Multiple Linear Regression/7-58. Multiple Linear Regression. Independent Variables & Prediction Models.md",
     "Section 7. Multiple Linear Regression/7-57. Startup Success Prediction. Regression Model for VC Fund Decision-Making.md",
     "Section 6. Simple Linear Regression/6-43. Step 1a - Mastering Simple Linear Regression. Key Concepts and Implementation.md",
@@ -252,9 +212,6 @@
     "Section 3. Data Preprocessing in Python/Coding Exercise 4. Dataset Splitting and Feature Scaling.md",
     "Section 3. Data Preprocessing in Python/3-25. Step 1 - Feature Scaling in ML. Why It's Crucial for Data Preprocessing.md",
     "Section 3. Data Preprocessing in Python/3-26. Step 2 - How to Scale Numeric Features in Python for.md",
-    "Section 3. Data Preprocessing in Python/3-27. Step 3 - Implementing Feature Scaling. Fit and Tra.md",
-    "Section 1. Welcome to the course Here we will help you get started in the best conditions/1-1. Get Excited about ML. Predict Car Purchases with.md",
-    "Section 3. Data Preprocessing in Python/Coding exercise 5. Feature scaling for Machine Learning.md",
     "image/Pasted image 20251213143546.png",
     "image/Pasted image 20251213143602.png",
     "image",
@@ -269,7 +226,6 @@
     "MACHIN~1/PART3-~1/SE7C2A~1/Python",
     "Machine-Learning-A-Z-Codes-Datasets/Part 3 - Classification/Section 14 - Logistic Regression/Python/Color Blind Friendly Images/training_set.png",
     "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images/training_set.png",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images/test_set.png",
-    "MACHIN~1/PART3-~1/SECTIO~1/Python/Social_Network_Ads.csv"
+    "MACHIN~1/PART3-~1/SECTIO~1/Python/Color Blind Friendly Images/test_set.png"
   ]
 }
