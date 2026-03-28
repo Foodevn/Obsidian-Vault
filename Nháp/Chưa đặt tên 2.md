@@ -1,0 +1,5 @@
+- **Dữ liệu đầu vào:** Lịch sử giá (OHLCV), khối lượng giao dịch, báo cáo tài chính, tin tức kinh tế vĩ mô.
+- **Khai phá đặc trưng (Features):** Các chỉ báo kỹ thuật (RSI, MACD, SMA/EMA, Bollinger Bands), mức độ biến động (Volatility).
+- **Mô hình cốt lõi:** Random Forest, Gradient Boosting (XGBoost/LightGBM) cho dữ liệu dạng bảng, hoặc LSTM/GRU cho dữ liệu chuỗi thời gian.
+- **Hàm đánh giá tối ưu:** Sai số toàn phương trung bình (MSE) cho dự đoán giá, kết hợp các chỉ số đánh giá rủi ro/lợi nhuận như Sharpe Ratio, Maximum Drawdown.
+- **Công nghệ triển khai:** Huấn luyện mô hình bằng Python (TensorFlow/Scikit-learn), sau đó đóng gói và triển khai hệ thống giao dịch tự động bằng Java để đảm bảo tính chặt chẽ, an toàn kiểu dữ liệu và tối ưu tốc độ xử lý đa luồng.

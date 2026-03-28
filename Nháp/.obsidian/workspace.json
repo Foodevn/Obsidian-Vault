@@ -1,41 +1,70 @@
 {
   "main": {
-    "id": "eecf42fe3a2a1774",
+    "id": "b475e5da93f6b2a8",
     "type": "split",
     "children": [
       {
-        "id": "3fe76294e52d53b6",
+        "id": "eee99d438d22f8d0",
         "type": "tabs",
         "children": [
           {
-            "id": "e9d23f8c293269f8",
+            "id": "126c092c3b60c5ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TÀI LIỆU THIẾT KẾ KIẾN TRÚC.md",
+                "file": "Chưa đặt tên.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TÀI LIỆU THIẾT KẾ KIẾN TRÚC"
+              "title": "Chưa đặt tên"
+            }
+          },
+          {
+            "id": "99aee86f33dfa2eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chưa đặt tên 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chưa đặt tên 2"
+            }
+          },
+          {
+            "id": "e114f4015c55cf48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chưa đặt tên 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chưa đặt tên 3"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2885b63deb79a9d4",
+    "id": "f1dc4835dea3b029",
     "type": "split",
     "children": [
       {
-        "id": "896767fef498437f",
+        "id": "befb1060b3cb89aa",
         "type": "tabs",
         "children": [
           {
-            "id": "c687330bbe99b929",
+            "id": "87ee53b45a1ebb80",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +77,7 @@
             }
           },
           {
-            "id": "27bbb2134382db15",
+            "id": "c3c8262f74b05798",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +94,7 @@
             }
           },
           {
-            "id": "15a67239e8df2770",
+            "id": "5ed150c9bc33f273",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +107,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 300
   },
   "right": {
-    "id": "91a35dab56c33ee5",
+    "id": "d01a895d5b1ac9db",
     "type": "split",
     "children": [
       {
-        "id": "c5b3c2a1cb05b349",
+        "id": "968d8c5dc836684e",
         "type": "tabs",
         "children": [
           {
-            "id": "7e9fc3da446b608c",
+            "id": "7a89fe5971f2d869",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
+                "file": "Chưa đặt tên.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,24 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 1-s2.0-S0950705125014923-main"
+              "title": "Liên kết đến của Chưa đặt tên"
             }
           },
           {
-            "id": "dd5afa991e795c5f",
+            "id": "2e0fcbdc438ac331",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chưa đặt tên.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra"
+              "title": "Liên kết đi ra từ Chưa đặt tên"
             }
           },
           {
-            "id": "80681cf866eff1e8",
+            "id": "e1bb50bebef30a91",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,21 +162,36 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Thẻ"
             }
           },
           {
-            "id": "6ef94e008adcb234",
+            "id": "1d2065c2cf57ef38",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tất cả thuộc tính"
+            }
+          },
+          {
+            "id": "a9e47431791bfd79",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Chưa đặt tên.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương"
+              "title": "Đề cương của Chưa đặt tên"
             }
           }
         ]
@@ -158,49 +203,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Tạo cơ sở mới": false,
       "switcher:Mở bộ chuyển đổi nhanh": false,
       "graph:Mở xem biểu đồ": false,
       "canvas:Tạo bảng mới": false,
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
-      "command-palette:Mở khay lệnh": false
+      "command-palette:Mở khay lệnh": false,
+      "bases:Tạo cơ sở mới": false
     }
   },
-  "active": "e9d23f8c293269f8",
+  "active": "e114f4015c55cf48",
   "lastOpenFiles": [
-    "bài báo 2/1-s2.0-S0957417425040059-main.pdf",
-    "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
-    "nháp.md",
-    "bài báo 1/3. List-based damped high utiluty occupancy pattern analysis.md",
-    "TÀI LIỆU THIẾT KẾ KIẾN TRÚC.md",
+    "Chưa đặt tên 2.md",
+    "Chưa đặt tên 1.md",
     "Chưa đặt tên.md",
-    "khái niệm/Chiếm dụng.md",
-    "bài báo 1/1. Introduction.md",
-    "bài báo 1/4. Đánh giá hiệu năng.md",
-    "ảnh/Pasted image 20260124084600.png",
-    "bài báo 1/2. relate word.md",
-    "ảnh/Pasted image 20260102152430.png",
-    "ảnh/Pasted image 20260105081658.png",
-    "ảnh/Pasted image 20260104101543.png",
-    "ảnh/{1C423E2C-EE8E-450C-9C04-E944B4BAC710}.png",
-    "ảnh/Pasted image 20251115142316.png",
-    "ảnh/translated_image_vi.png",
-    "ảnh/Pasted image 20251115160852.png",
-    "ảnh/Pasted image 20251115161016.png",
-    "ảnh/Pasted image 20260103144845.png",
-    "bài báo 2/5. Proposed algorithm(5.1. HAEIM_Stream algorithm).md",
-    "bài báo 2/3. Preliminaries and problem statement.md",
-    "bài báo 2/4. Data structure and key strategies.md",
-    "bài báo 2/1-s2.0-S0957417425040059-main-2.pdf",
-    "bài báo 2",
-    "bài báo 1",
-    "{.md",
-    "khái niệm",
-    "3.4.md",
-    "3.1. Preliminaries.md",
-    "3.2. Tổng Quan Quy Trình.md",
-    "3.3. Constructing global data structure with original data.md",
-    "ảnh"
+    "Chưa đặt tên 3.md"
   ]
 }
