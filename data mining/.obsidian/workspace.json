@@ -11,32 +11,6 @@
             "id": "e9d23f8c293269f8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "bài báo 1/1-s2.0-S0950705125014923-main.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "1-s2.0-S0950705125014923-main"
-            }
-          },
-          {
-            "id": "826c2e3e73e36a9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nháp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nháp"
-            }
-          },
-          {
-            "id": "bdd6699a9001ad93",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "TÀI LIỆU THIẾT KẾ KIẾN TRÚC.md",
@@ -46,37 +20,8 @@
               "icon": "lucide-file",
               "title": "TÀI LIỆU THIẾT KẾ KIẾN TRÚC"
             }
-          },
-          {
-            "id": "c4f852e6b543e1a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bài báo 1/3. List-based damped high utiluty occupancy pattern analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. List-based damped high utiluty occupancy pattern analysis"
-            }
-          },
-          {
-            "id": "a54203aefc4711fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nháp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nháp"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,13 +167,14 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "bdd6699a9001ad93",
+  "active": "e9d23f8c293269f8",
   "lastOpenFiles": [
-    "nháp.md",
-    "TÀI LIỆU THIẾT KẾ KIẾN TRÚC.md",
-    "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
     "bài báo 2/1-s2.0-S0957417425040059-main.pdf",
+    "bài báo 1/1-s2.0-S0950705125014923-main.pdf",
+    "nháp.md",
     "bài báo 1/3. List-based damped high utiluty occupancy pattern analysis.md",
+    "TÀI LIỆU THIẾT KẾ KIẾN TRÚC.md",
+    "Chưa đặt tên.md",
     "khái niệm/Chiếm dụng.md",
     "bài báo 1/1. Introduction.md",
     "bài báo 1/4. Đánh giá hiệu năng.md",
